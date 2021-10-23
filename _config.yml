@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ali Anwar/ RSM IBM Research"
+title                    : "Ali Anwar / IBM Research"
 title_separator          : "-"
 name                     : &name "Ali Anwar"
 description              : &description "Distributed Systems + ML Researcher"
@@ -78,8 +78,8 @@ analytics:
 author:
   name             : "Ali Anwar"
   avatar           : "ali.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Research Staff Member"
+  location         : "San Jose, CA"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=o3eOVbgAAAAJ&hl=en"
   email            :
@@ -91,7 +91,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "chalianwar"
   google_plus      :
   keybase          :
   instagram        :
