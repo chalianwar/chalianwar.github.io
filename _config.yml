@@ -227,7 +227,7 @@ defaults:
       type: Services
     values:
       layout: single
-      author_profile: true
+      author_awervices: true
       share: true
       comment: true
   # _talks
