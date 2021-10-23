@@ -30,4 +30,4 @@ on i) Enterprise-Strength Federated Learning for Hybrid Cloud and Edge, and ii)
 Container Storage. Most recently, I have been recognized with a 2021
 Outstanding Technical Achievement Award on my contributions to the
 "Enterprise-Strength Federated Learning for Hybrid Cloud and Edge". I am also a
-co-inventor 10+ U.S. patents.
+co-inventor of 10+ U.S. patents.
