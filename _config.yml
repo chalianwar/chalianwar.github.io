@@ -78,7 +78,7 @@ analytics:
 author:
   name             : "Ali Anwar"
   avatar           : "ali.png"
-  bio              : "Research Staff Member"
+  bio              : "Research Staff Member - IBM Research Almaden"
   location         : "San Jose, CA"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=o3eOVbgAAAAJ&hl=en"
@@ -224,7 +224,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: Services
     values:
       layout: single
       author_profile: true
