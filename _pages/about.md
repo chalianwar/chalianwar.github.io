@@ -1,13 +1,12 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-I am a distributed systems researcher at IBM Almaden Research Center. My research interests lie at the intersection of distributed systems and machine learning. I joined IBM Research Almaden in June of 2018 as a research staff member in the AI Platforms team. I hold a Ph.D. degree in Computer Science from Virginia Tech (VT). In my earlier years (2009 to 2013), I worked as a tools developer on various open source projects (GNU GDB, Embedded Linux, and BusyBox) at Mentor Graphics.
+I am a distributed systems researcher at IBM Almaden Research Center. My research interests lie at the intersection of distributed systems and machine learning. I joined IBM Research Almaden in June of 2018 as a Research Staff Member in the AI Platforms team. I hold a Ph.D. degree in Computer Science from Virginia Tech (VT). In my earlier years (2009 to 2013), I worked as a tools developer on various open source projects (GNU GDB, Embedded Linux, and BusyBox) at Mentor Graphics.
 
 The overarching goal of my research is to enable efficient and flexible systems for the growing data demands of modern applications, like distributed machine learning, running on existing as well as emerging computing platforms. My ongoing work focuses on (1) Distributed Machine/Federated Learning systems, (2) Serverless and microservice-based systems, and (3) Efficient storage for Docker containers.
 
