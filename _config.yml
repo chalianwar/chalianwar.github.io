@@ -221,10 +221,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _services
   - scope:
       path: ""
-      type: Services
+      type: services
     values:
       layout: single
       author_awervices: true
