@@ -31,3 +31,15 @@ Container Storage. Most recently, I have been recognized with a 2021
 Outstanding Technical Achievement Award on my contributions to the
 "Enterprise-Strength Federated Learning for Hybrid Cloud and Edge". I am also a
 co-inventor of 10+ U.S. patents.
+
+<div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        <tr>
+          <th scope="row">Mar, 2022</th>
+          <td>
+            Invited to serve on the <b>Program Committee (PC)</b> for <b>ABC-2022</b>.
+          </td>
+        </tr>
+       </table>
+</div>
+  
