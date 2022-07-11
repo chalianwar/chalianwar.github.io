@@ -16,7 +16,7 @@ Serverless and microservice-based systems, and (3) Efficient storage for Docker
 containers.
 
 I hold a Ph.D. degree in Computer Science from
-Virginia Tech (VT). Before joining UMN I worked at IBM Research (2018 to 2022).
+Virginia Tech (VT). Before joining UMN, I worked at IBM Research (2018 to 2022).
 In my earlier years (2009 to 2013), I worked as a tools
 developer on various open source projects (GNU GDB, Embedded Linux, and
 BusyBox) at Mentor Graphics.
@@ -28,8 +28,7 @@ At IBM, I have been recognized as a 2019 Outstanding
 Research Accomplishment winner for "Advancing Adversarial Robustness in AI
 Models". In 2020, I received two Research Accomplishment awards for my research
 on i) Enterprise-Strength Federated Learning for Hybrid Cloud and Edge, and ii)
-Container Storage. Most recently, I have been recognized with a 2021
-Outstanding Technical Achievement Award on my contributions to the
+Container Storage. In 2021, I received Outstanding Technical Achievement Award on my contributions to the
 "Enterprise-Strength Federated Learning for Hybrid Cloud and Edge". I am also a
 co-inventor of 10+ U.S. patents.
 
