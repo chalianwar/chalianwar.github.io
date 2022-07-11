@@ -16,7 +16,7 @@ Serverless and microservice-based systems, and (3) Efficient storage for Docker
 containers.
 
 I hold a Ph.D. degree in Computer Science from
-Virginia Tech (VT). Before joining UMN, I worked at IBM Research (2018 to 2022).
+Virginia Tech (VT). Before joining UMN, I worked at IBM Research as a Research Staff Member (2018 to 2022).
 In my earlier years (2009 to 2013), I worked as a tools
 developer on various open source projects (GNU GDB, Embedded Linux, and
 BusyBox) at Mentor Graphics.
