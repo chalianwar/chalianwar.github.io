@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am an Assistant Professor of Computer Science at University of Minnesota. My
+I am an Assistant Professor of Computer Science and Engineering at University of Minnesota. My
 research interests lie at the intersection of distributed systems and machine
 learning. The overarching goal of my research is to enable efficient and flexible systems
 for the growing data demands of modern applications, like distributed machine
