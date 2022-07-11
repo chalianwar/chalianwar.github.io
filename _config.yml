@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Ali Anwar"
-description              : &description "Research Staff Member - IBM Research Almaden"
+description              : &description "Assistant Professor - CSE University of Minnesota"
 url                      : https://chalianwar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chalianwar/chalianwar.github.io"
@@ -78,8 +78,8 @@ analytics:
 author:
   name             : "Ali Anwar"
   avatar           : "profile.png"
-  bio              : "IBM Research Almaden, Distributed Systems + ML Researcher"
-  location         : "San Jose, CA"
+  bio              : "Assistant Professor, CSE@UMN, Distributed Systems + ML Researcher"
+  location         : "Minneapolis, Minnesota"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=o3eOVbgAAAAJ&hl=en"
   email            :
