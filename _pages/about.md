@@ -34,9 +34,9 @@ co-inventor of 10+ U.S. patents.
 
 ## News
 
-* Open positions for graduate students.
-```diff 
-  - Email me your CV, if you are interested in systems and machine learning. 
+```diff
+- Open positions for graduate students
 ```
+Email me your CV, if you are interested in systems and machine learning.
 
   
