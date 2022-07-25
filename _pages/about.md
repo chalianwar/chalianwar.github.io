@@ -34,10 +34,10 @@ co-inventor of 10+ U.S. patents.
 
 ## News
 
-* <p><span style="color:blue">Open positions for graduate students.</span><br>
-Email me your CV, if you are interested in systems and machine learning.</p>
+* <span style="color:blue">Open positions for graduate students.</span><br>
+Email me your CV, if you are interested in systems and machine learning.
 * June 2022: Paper accepted in SC'22. Congratulations to Sixing!
-* June 2022: <p><span style="color:blue">Best paper award from IEEE Cloud'22 </span> for our work on privacy-preserving Federated Learning.
+* June 2022: <span style="color:blue">Best paper award from IEEE Cloud'22 for our work on privacy-preserving Federated Learning.</span>
 * May 2022:  Two papers accepted in IEEE Cloud'22. Congratulations to Jingoo and Ahmad!
   
 
