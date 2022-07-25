@@ -34,7 +34,7 @@ co-inventor of 10+ U.S. patents.
 
 ## News
 
-* <span style="color:blue">Open positions for graduate students* text</span>.
+* <span style="color:blue">Open positions for graduate students</span>.
 Email me your CV, if you are interested in systems and machine learning.
 * Paper accepted in SC
   
