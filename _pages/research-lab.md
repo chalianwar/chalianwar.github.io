@@ -7,11 +7,11 @@ author_profile: true
 
 
 ## Ph.D. Students
-* Qi Le - University of Minnesota 
-* Ammar Ahmed - University of Minnesota 
+* Qi Le
+* Ammar Ahmed
 
 ## Undergraduate Students
-* Rishabh Agarwal - University of Minnesota 
-* Azal Khan - IIT Guwahati
-* Astha Pant - IIT Kanpur
-* Oqasha Akram - UET
+* Rishabh Agarwal 
+* Azal Khan 
+* Astha Pant 
+* Oqasha Akram 
