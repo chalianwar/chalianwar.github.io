@@ -33,8 +33,8 @@ Container Storage. In 2021, I received Outstanding Technical Achievement Award o
 co-inventor of 10+ U.S. patents.
 
 ## News
-```diff
-- * Open positions for graduate students.
--  Email me your CV, if you are interested in systems and machine learning.
-```
+
+* ```diff - Open positions for graduate students.
+          - Email me your CV, if you are interested in systems and machine learning. ```
+
   
