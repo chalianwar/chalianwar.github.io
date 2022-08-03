@@ -46,7 +46,7 @@ Email me your CV, if you are interested in systems and machine learning.
 * Paper accepted in USENIX ATC'20. Congratulations to Nannan!
 * Paper accepted in USENIX FAST'20. Congratulations to Ao!
 * Paper accepted in SoCC'20. Congratulations to Benjamin!
-* Paper accepted in HPDC'20. Congratulations to Zheng!
+* Paper accepted in HPDC'20. Congratulations to Zheng, Syed, and Ahsan!
 * Paper accepted in HotStorage'20. Congratulations to Alex!
   
 
