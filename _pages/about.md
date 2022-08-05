@@ -35,7 +35,7 @@ co-inventor of 10+ U.S. patents.
 * <span style="color:red">Open positions for graduate students.</span><br>
 Email me your CV, if you are interested in systems and machine learning.
 * Paper accepted in SC'22. Congratulations to Sixing and Phuong!
-* Best paper award from IEEE Cloud'22 for our work on privacy-preserving Federated Learning.
+* ![Alt text](http://clipart-library.com/img/1664788.png "Best paper award from IEEE Cloud'22 for our work on privacy-preserving Federated Learning.")
 * Two papers accepted in IEEE Cloud'22. Congratulations to Jingoo and Ahmad!
 * Paper accepted in USENIX FAST'21. Congratulations to Alex!
 * Paper accepted in SC'21. Congratulations to Zheng!
