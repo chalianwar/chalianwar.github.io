@@ -41,7 +41,7 @@ Email me your CV, if you are interested in systems and machine learning.
 * Paper accepted in SC'21. Congratulations to Zheng!
 * Paper accepted in AAAI'21. Congratulations to Syed!
 * Paper accepted in IEEE Cloud'21. Congratulations to Kamala!
-* <img src=http://clipart-library.com/img/1664788.png alt="drawing" width="22"/> Best paper award from ePart'21 for our work on accountable Federated Learning.
+* <span style><img src=http://clipart-library.com/img/1664788.png alt="drawing" width="22"/> Best paper award from ePart'21 for our work on accountable Federated Learning.</span>
 * Two papers accepted in TPDS. Congratulations to Nannan and Ali!
 * Paper accepted in USENIX ATC'20. Congratulations to Nannan!
 * Paper accepted in USENIX FAST'20. Congratulations to Ao!
