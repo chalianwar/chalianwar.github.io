@@ -178,9 +178,6 @@ collections:
   services:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
   research-lab:
     output: true
     permalink: /:collection/:path/
