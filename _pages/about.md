@@ -6,6 +6,17 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P7NJMYKVS8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P7NJMYKVS8');
+</script>
+</head>
 I am an Assistant Professor of Computer Science and Engineering at University of Minnesota. My
 research interests lie at the intersection of distributed systems and machine
 learning. The overarching goal of my research is to enable efficient and flexible systems
