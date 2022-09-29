@@ -12,9 +12,6 @@ main:
   - title: "Research Lab"
     url: /lab/
 
-  - title: "Talks"
-    url: /talks/    
-   
   - title: "CV"
     url: /cv/
     
