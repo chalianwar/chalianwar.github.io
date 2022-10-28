@@ -45,6 +45,7 @@ co-inventor of 10+ U.S. patents.
 ## News
 * <span style="color:red">Open positions for graduate students.</span><br>
 Email me your CV, if you are interested in systems and machine learning.
+* Paper accepted in IEEE BigData'22. Congratulations to Jingoo!
 * Paper accepted in SC'22. Congratulations to Sixing and Phuong!
 * <span style="color:green">Best paper award from IEEE Cloud'22 for our work on privacy-preserving Federated Learning.</span>
 * Two papers accepted in IEEE Cloud'22. Congratulations to Jingoo and Ahmad!
