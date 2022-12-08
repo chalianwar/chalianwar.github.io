@@ -20,6 +20,10 @@ author_profile: true
 * Qi Le
 * Ammar Ahmed
 
+## Masters Students
+* Sam Fountain
+* Xinran Wang
+
 ## Undergraduate Students
 * Rishabh Agarwal 
 * Azal Khan 
