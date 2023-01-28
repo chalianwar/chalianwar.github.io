@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research Lab"
+title: "DMLSys Lab (Distributed Machine Learning and Systems Lab)"
 permalink: /lab/
 author_profile: true
 ---
