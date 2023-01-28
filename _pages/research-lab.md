@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "DMLSys Lab (Distributed Machine Learning and Systems Lab)"
+title: "DMLSys Lab"
 permalink: /lab/
 author_profile: true
 ---
@@ -15,6 +15,8 @@ author_profile: true
   gtag('config', 'G-P7NJMYKVS8');
 </script>  
 </head>
+
+## Distributed Machine Learning and Systems Lab
 
 ## Ph.D. Students
 * Qi Le (Fall'22)
