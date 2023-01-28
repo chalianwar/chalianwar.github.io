@@ -18,12 +18,10 @@ author_profile: true
 
 ## Ph.D. Students
 * Qi Le (Fall'22)
+* Xinran Wang (Fall'22)
 * Ammar Ahmed (Fall'22)
 * Sam Fountain (Spring'23)
 
-## Masters Students
-* Xinran Wang (Fall'22)
-
 ## Undergraduate Students
-* Rishabh Agarwal 
-* Azal Khan
+* Rishabh Agarwal (Fall'22)
+* Azal Khan (Fall'22)
