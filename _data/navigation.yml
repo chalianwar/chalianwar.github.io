@@ -10,7 +10,7 @@ main:
     url: /services/
         
   - title: "Research Lab"
-    url: /research-lab/
+    url: /lab/
 
   - title: "CV"
     url: /cv/
