@@ -233,7 +233,7 @@ defaults:
       path: ""
       type: research-lab
     values:
-      layout: resarch-lab
+      layout: research-lab
       author_profile: true
       share: true
 
