@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research Lab"
+title: "DMLSys Lab"
 permalink: /lab/
 author_profile: true
 ---
@@ -16,16 +16,14 @@ author_profile: true
 </script>  
 </head>
 
-## Ph.D. Students
-* Qi Le
-* Ammar Ahmed
+## Distributed Machine Learning and Systems Lab
 
-## Masters Students
-* Sam Fountain
-* Xinran Wang
+## Ph.D. Students
+* Qi Le (Fall'22)
+* Xinran Wang (Fall'22)
+* Ammar Ahmed (Fall'22)
+* Sam Fountain (Spring'23)
 
 ## Undergraduate Students
-* Rishabh Agarwal 
-* Azal Khan 
-* Astha Pant 
-* Oqasha Akram 
+* Rishabh Agarwal (Fall'22)
+* Azal Khan (Fall'22)
