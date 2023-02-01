@@ -48,13 +48,13 @@ Email me your CV, if you are interested in systems and machine learning.
 * Paper accepted in ICSE'23. Congratulations to Waris!
 * Paper accepted in IEEE BigData'22. Congratulations to Jingoo!
 * Paper accepted in SC'22. Congratulations to Sixing and Phuong!
-* :trophy: <span style="color:green"> Best paper award from IEEE Cloud'22 for our work on privacy-preserving Federated Learning.</span>
+* <span style="color:green"> Best paper award from IEEE Cloud'22 for our work on privacy-preserving Federated Learning.</span>
 * Two papers accepted in IEEE Cloud'22. Congratulations to Jingoo and Ahmad!
 * Paper accepted in USENIX FAST'21. Congratulations to Alex!
 * Paper accepted in SC'21. Congratulations to Zheng!
 * Paper accepted in AAAI'21. Congratulations to Syed!
 * Paper accepted in IEEE Cloud'21. Congratulations to Kamala!
-* :trophy: <span style="color:green">Best paper award from ePart'21 for our work on accountable Federated Learning.</span>
+* <span style="color:green">Best paper award from ePart'21 for our work on accountable Federated Learning.</span>
 * Two papers accepted in TPDS. Congratulations to Nannan and Ali!
 * Paper accepted in USENIX ATC'20. Congratulations to Nannan!
 * Paper accepted in USENIX FAST'20. Congratulations to Ao!
