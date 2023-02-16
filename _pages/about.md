@@ -42,9 +42,11 @@ on i) Enterprise-Strength Federated Learning for Hybrid Cloud and Edge, and ii)
 Container Storage. In 2021, I received Outstanding Technical Achievement Award on my contributions to the
 "Enterprise-Strength Federated Learning for Hybrid Cloud and Edge". I am also a
 co-inventor of 10+ U.S. patents.
-## Recent Publications
-* <span style="color:red">Open positions for graduate students.</span><br>
+
+<span style="color:red">Open positions for graduate students.</span><br>
 Email me your CV, if you are interested in systems and machine learning.
+
+## Recent Publications
 * Paper accepted in VLDB'23. Congratulations to Jingyuan, Ben, and the team!
 * Paper accepted in ICSE'23. Congratulations to Waris!
 * Paper accepted in ASILOMAR'22. Congratulation to Qi!
