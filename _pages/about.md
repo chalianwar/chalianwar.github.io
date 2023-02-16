@@ -42,7 +42,7 @@ on i) Enterprise-Strength Federated Learning for Hybrid Cloud and Edge, and ii)
 Container Storage. In 2021, I received Outstanding Technical Achievement Award on my contributions to the
 "Enterprise-Strength Federated Learning for Hybrid Cloud and Edge". I am also a
 co-inventor of 10+ U.S. patents.
-## Recent Publication News
+## Recent Publications
 * <span style="color:red">Open positions for graduate students.</span><br>
 Email me your CV, if you are interested in systems and machine learning.
 * Paper accepted in VLDB'23. Congratulations to Jingyuan, Ben, and the team!
@@ -63,7 +63,7 @@ Email me your CV, if you are interested in systems and machine learning.
 * Paper accepted in SoCC'20. Congratulations to Benjamin!
 * Paper accepted in HPDC'20. Congratulations to Zheng, Syed, and Ahsan!
 * Paper accepted in HotStorage'20. Congratulations to Alex!
-## Recent Services News
+## Recent Services
 * Serving as General Co-Chair for HotStorage'23.
 * Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
 * Serving as Grants and Poster C0-Chair for HPDC'23.
