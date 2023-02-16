@@ -42,11 +42,12 @@ on i) Enterprise-Strength Federated Learning for Hybrid Cloud and Edge, and ii)
 Container Storage. In 2021, I received Outstanding Technical Achievement Award on my contributions to the
 "Enterprise-Strength Federated Learning for Hybrid Cloud and Edge". I am also a
 co-inventor of 10+ U.S. patents.
-## News
+## Recent Publication News
 * <span style="color:red">Open positions for graduate students.</span><br>
 Email me your CV, if you are interested in systems and machine learning.
 * Paper accepted in VLDB'23. Congratulations to Jingyuan, Ben, and the team!
 * Paper accepted in ICSE'23. Congratulations to Waris!
+* Paper accepted in ASILOMAR'22. Congratulation to Qi!
 * Paper accepted in IEEE BigData'22. Congratulations to Jingoo!
 * Paper accepted in SC'22. Congratulations to Sixing and Phuong!
 * <span style="color:green"> Best paper award from IEEE Cloud'22 for our work on privacy-preserving Federated Learning.</span>
@@ -62,6 +63,13 @@ Email me your CV, if you are interested in systems and machine learning.
 * Paper accepted in SoCC'20. Congratulations to Benjamin!
 * Paper accepted in HPDC'20. Congratulations to Zheng, Syed, and Ahsan!
 * Paper accepted in HotStorage'20. Congratulations to Alex!
-  
+## Recent Services News
+* Serving as General Co-Chair for HotStorage'23.
+* Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
+* Serving as Grants and Poster C0-Chair for HPDC'23.
+* 2023 PC: HPDC'23, Cluster'23, IPDPS'23
+* Serving as General Co-Chair for HotStorage'23.
+* Serving as publicity Co-Chair for HPDC'22.
+* 2022: PC: ICDCS'22, HPDC'22, FL-NeurIPS'22, FedVision'22, IEEE BigData'22, FL-AAAI'22
 
   
