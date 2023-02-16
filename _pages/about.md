@@ -45,6 +45,7 @@ co-inventor of 10+ U.S. patents.
 ## News
 * <span style="color:red">Open positions for graduate students.</span><br>
 Email me your CV, if you are interested in systems and machine learning.
+* Paper accepted in VLDB'23. Congratulations to Jingyuan, Ben, and the team!
 * Paper accepted in ICSE'23. Congratulations to Waris!
 * Paper accepted in IEEE BigData'22. Congratulations to Jingoo!
 * Paper accepted in SC'22. Congratulations to Sixing and Phuong!
