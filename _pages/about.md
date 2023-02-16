@@ -64,12 +64,12 @@ Email me your CV, if you are interested in systems and machine learning.
 * Paper accepted in HPDC'20. Congratulations to Zheng, Syed, and Ahsan!
 * Paper accepted in HotStorage'20. Congratulations to Alex!
 ## Recent Services
-* Serving as General Co-Chair for HotStorage'23.
-* Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
-* Serving as Grants and Poster C0-Chair for HPDC'23.
 * 2023 PC: HPDC'23, Cluster'23, IPDPS'23
 * Serving as General Co-Chair for HotStorage'23.
-* Serving as publicity Co-Chair for HPDC'22.
+* Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
+* Serving as Grants and Poster Co-Chair for HPDC'23.
 * 2022: PC: ICDCS'22, HPDC'22, FL-NeurIPS'22, FedVision'22, IEEE BigData'22, FL-AAAI'22
+* Serving as General Co-Chair for HotStorage'23.
+* Serving as publicity Co-Chair for HPDC'22.
 
   
