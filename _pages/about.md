@@ -43,8 +43,6 @@ Container Storage. In 2021, I received Outstanding Technical Achievement Award o
 "Enterprise-Strength Federated Learning for Hybrid Cloud and Edge". I am also a
 co-inventor of 10+ U.S. patents.
 
-<span style="color:red">Open positions for graduate students.</span><br>
-Email me your CV, if you are interested in systems and machine learning.
 
 ### Recent Publications
 * Paper accepted in VLDB'23. Congratulations to Jingyuan, Ben, and the team!
