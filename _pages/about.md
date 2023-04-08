@@ -23,7 +23,7 @@ learning. The overarching goal of my research is to enable efficient and flexibl
 for the growing data demands of modern applications, like distributed machine
 learning, running on existing as well as emerging computing platforms. My
 ongoing work focuses on (1) Distributed Machine/Federated Learning systems, (2)
-Serverless and microservice-based systems, and (3) Quantum Computing systems.
+Serverless and microservice-based systems, and (3) Quantum computing systems.
 
 I hold a Ph.D. degree in Computer Science from
 Virginia Tech (VT). Before joining UMN, I worked at IBM Research as a Research Staff Member (2018 to 2022).
