@@ -44,6 +44,7 @@ co-inventor of 10+ U.S. patents.
 
 
 ### Recent Publications
+* Paper accepter in Systor'23. Congratulation to Alex and the team!
 * Paper accepted in VLDB'23. Congratulations to Jingyuan, Ben, and the team!
 * 2x papers accepted in CCGrid'23. Congratulations to Sixing and Syed!
 * Paper accepted in ICSE'23. Congratulations to Waris!
