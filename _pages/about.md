@@ -48,6 +48,7 @@ I received Best Paper Awards from ACM AISec 2019 for my work on privacy-preservi
 
 
 ### Recent Services
+* 2024 PC: FAST'24
 * 2023 PC: HPDC'23, Cluster'23, IPDPS'23, FedVision'23, FL-ICML'23
 * Serving as General Co-Chair for HotStorage'23.
 * Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
