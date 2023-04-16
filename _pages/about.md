@@ -53,7 +53,7 @@ I received Best Paper Awards from ACM AISec 2019 for my work on privacy-preservi
 * Serving on NSF Proposal Review Panel.
 * Serving as General Co-Chair for HotStorage'23.
 * Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
-* Serving as Grants and Poster Co-Chair for HPDC'23.
+* Serving as Grants Co-Chair for HPDC'23.
 * 2022 PC: ICDCS'22, HPDC'22, FL-NeurIPS'22, FedVision'22, IEEE BigData'22, FL-AAAI'22.
 * Serving as General Co-Chair for HotStorage'23.
 * Serving as publicity Co-Chair for HPDC'22.
