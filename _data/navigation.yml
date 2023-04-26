@@ -2,16 +2,19 @@
 main:
   - title: "Publications"
     url: /publications/
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Services"
-    url: /services/
         
   - title: "DMLSys Lab"
     url: /lab/
-
+    
+  - title: "Services"
+    url: /services/
+  
+  - title: "Funding"
+    url: /funding/
+    
+  - title: "Teaching"
+    url: /teaching/    
+    
   - title: "CV"
     url: /cv/
     
