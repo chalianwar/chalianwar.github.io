@@ -5,7 +5,7 @@ permalink: /funding/
 author_profile: true
 ---
 
-### Accepted Funding Awards
+### Funding Awards
 * 
 
 ### Declined Funding Awards
