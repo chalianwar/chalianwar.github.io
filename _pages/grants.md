@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ### Accepted Funding Awards
-None.
+* 
 
 ### Declined Funding Awards
 * NSF Career Award 2022
