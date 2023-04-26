@@ -1,14 +1,14 @@
 ---
 layout: archive
-title: "Funding"
+title: ""
 permalink: /funding/
 author_profile: true
 ---
 
-## Accepted Funding Awards
+### Accepted Funding Awards
 None.
 
-## Declined Funding Awards
-1) NSF Career Award 2022
-2) Amazon Research Awards Fall 2022
-3) Google Research Scholar Program 2022
+### Declined Funding Awards
+* NSF Career Award 2022
+* Amazon Research Awards Fall 2022
+* Google Research Scholar Program 2022
