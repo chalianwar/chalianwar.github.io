@@ -5,6 +5,20 @@ permalink: /funding/
 author_profile: true
 ---
 
+---
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P7NJMYKVS8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P7NJMYKVS8');
+</script>
+</head>
+
+
 ### Current Awards
 * UMN Startup Fund
 
