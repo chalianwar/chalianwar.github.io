@@ -12,8 +12,8 @@ main:
   - title: "DMLSys Lab"
     url: /lab/
     
-  - title: "Funds"
-    url: /funding/ 
+#  - title: "Funds"
+#    url: /funding/ 
     
   - title: "CV"
     url: /cv/
