@@ -5,8 +5,12 @@ permalink: /funding/
 author_profile: true
 ---
 
-### Funding Awards
-* 
+### Current Awards
+None
+
+### Pending Awards
+* NSF CISE Core Medium
+* NSF CISE Core Small
 
 ### Declined Funding Awards
 * NSF Career Award 2022
