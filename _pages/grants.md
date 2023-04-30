@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ### Current Awards
-None
+UMN Startup Fund
 
 ### Pending Awards
 * NSF CISE Core Medium
