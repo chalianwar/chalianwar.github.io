@@ -20,11 +20,7 @@ author_profile: true
 
 
 ### Current Awards
-* UMN Startup Fund
-
-### Pending Awards
-* NSF CISE Core Medium
-* NSF CISE Core Small
+* University Startup Fund
 
 ### Declined Funding Awards
 * NSF Career Award 2022
