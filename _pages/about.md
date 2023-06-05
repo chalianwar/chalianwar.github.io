@@ -25,7 +25,7 @@ I received Best Paper Awards from ACM AISec 2019 for my work on privacy-preservi
 
 
 ### Recent Publications
-* <span style="color:green"> Best paper award from ACM SYSTOR'22 for our work on serving files efficiently in serverless computing.</span>
+* <span style="color:green"> Best paper award from ACM SYSTOR'23 for our work on serving files efficiently in serverless computing.</span>
 * Paper Proposal accepted in I2Q (ISCA'23). Congratulations to Xinran and Connor!
 * Extended Abstract accepted in QCCC (HPDC'23). Congratulations to Xinran and Connor!
 * Paper accepted in Systor'23. Congratulations to Alex and the team!
