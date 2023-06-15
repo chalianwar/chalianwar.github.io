@@ -17,14 +17,10 @@ redirect_from:
   gtag('config', 'G-P7NJMYKVS8');
 </script>
 </head>
-Hello! I'm an Assistant Professor in the Computer Science and Engineering Department at the University of Minnesota. My passion lies in the fascinating intersection of distributed systems and machine learning. My research is dedicated to developing systems that are efficient, adaptable, and capable of supporting the increasing data needs of modern applications, such as distributed machine learning. These applications must run seamlessly on both current and next-generation computing platforms. Presently, I'm channeling my efforts into Distributed Machine/Federated Learning systems, serverless and microservice-based systems, and exploring the realm of quantum computing systems.
 
-I earned my doctorate in Computer Science from Virginia Tech. Before taking my role at the University of Minnesota, I was part of the IBM Research from 2018 to 2022. Before that, from 2009 to 2013, I gained invaluable experience working as a tools developer on several open-source projects at Mentor Graphics. These projects included GNU GDB, Embedded Linux, U-Boot, and BusyBox.
+I'm an Assistant Professor in Computer Science and Engineering Department at the University of Minnesota. I hold a Ph.D. degree in Computer Science from Virginia Tech (VT). Before joining UMN, I worked at IBM Research as a Research Staff Member from 2018 to 2022. Before that, from 2009 to 2013, I gained invaluable experience working as a tools developer on several open-source projects (GNU GDB, Embedded Linux, U-Boot, and BusyBox) at Mentor Graphics. 
 
-Over the years, I've been honored with several recognitions for my work. I received Best Paper awards at ACM AISec in 2019, DGS EGOV in 2020, and IEEE Cloud in 2022, all for my research on privacy-preserving Federated Learning. Additionally, I recently received the Best Paper award at ACM SYSTOR 2023 for my work on improving the efficiency of file serving in serverless computing.
-
-IBM recognized my research on 'Advancing Adversarial Robustness in AI Models' with an Outstanding Research Accomplishment Award in 2019. In 2020, my research on Enterprise-Strength Federated Learning for Hybrid Cloud and Edge and Container Storage garnered two more Research Accomplishment Awards. In 2021, I was awarded an Outstanding Technical Achievement Award for my contributions to the same project. Beyond these, I am a co-inventor on more than 15 US patents.
-
+I work at the intersection of distributed systems and machine learning. My research aims to construct efficient and adaptable systems capable of meeting the escalating data requirements of modern applications. Currently, my focus is on Distributed Machine/Federated Learning systems, serverless and microservice-based systems, and quantum computing systems. Over the years, my work has been recognized with several Best Paper awards, including ACM AISec, DGS EGOV, IEEE Cloud, and most recently, ACM SYSTOR. I've also been acknowledged with multiple awards from IBM, and I am a co-inventor on more than 15 US patents.
 
 ### Recent Publications
 * 🏆 Best paper award from ACM SYSTOR'23 for our work on serving files efficiently in serverless computing.
