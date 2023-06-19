@@ -22,7 +22,7 @@ I'm an Assistant Professor in Computer Science and Engineering Department at the
 
 I work at the intersection of distributed systems and machine learning. My research aims to construct efficient and adaptable systems capable of meeting the escalating data requirements of modern applications. Currently, my focus is on Distributed Machine/Federated Learning systems, serverless and microservice-based systems, and quantum computing systems. Over the years, my work has been recognized with several Best Paper awards, including ACM AISec, DGS EGOV, IEEE Cloud, and most recently, ACM SYSTOR. I've also been acknowledged with multiple awards from IBM, and I am a co-inventor on more than 15 US patents.
 
-### Recent Publications
+### Recent News
 * 🏆 Best paper award from ACM SYSTOR'23 for our work on serving files efficiently in serverless computing.
 * Paper Proposal accepted in I2Q (ISCA'23). Congratulations to Xinran and Connor!
 * Extended Abstract accepted in QCCC (HPDC'23). Congratulations to Xinran and Connor!
