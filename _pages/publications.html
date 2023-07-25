@@ -19,21 +19,26 @@ author_profile: true
 
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>Publication Page</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <style>
+            body {
+                background-color: #f8f9fa;
+                font-family: Arial, sans-serif;
+            }
             .conference-tag {
                 background-color: #007bff;
                 color: white;
                 height: 30px;
-                width: 110px;
+                width: 100px;
                 border: 2px solid #007bff;
                 font-size: 11pt;
-                display: inline-block;
-                text-align: center;
-                vertical-align: middle;
-                line-height: 30px;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 15px;
                 margin-right: 20px;
                 margin-bottom: 20px;
             }
@@ -41,18 +46,26 @@ author_profile: true
                 display: flex;
                 flex-direction: row;
                 border: 1px solid lightgray;
-                border-radius: 5px;
+                border-radius: 10px;
                 margin-bottom: 20px;
                 padding: 10px;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
             }
             .publication-card p {
                 margin: 0;
+                font-size: 16px;
+                flex: 1;
             }
             .publication-link {
                 color: #007bff;
+                font-weight: bold;
             }
             .publication-link:hover {
                 color: #0056b3;
+            }
+            h2 {
+                border-bottom: 1px solid #007bff;
+                padding-bottom: 10px;
             }
         </style>
     </head>
