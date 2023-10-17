@@ -18,7 +18,7 @@ redirect_from:
 </script>
 </head>
 
-I'm an Assistant Professor in Computer Science and Engineering Department at the University of Minnesota. I hold a Ph.D. degree in Computer Science from Virginia Tech (VT). Before joining UMN, I worked at IBM Research as a Research Staff Member. In my earlier years, I gained invaluable experience working as a tools developer on several open-source projects (GNU GDB, Embedded Linux, U-Boot, and BusyBox) at Mentor Graphics.
+I'm an Assistant Professor in Computer Science and Engineering Department at the University of Minnesota. Before joining UMN, I worked at IBM Research as a Research Staff Member. In my earlier years, I gained invaluable experience working as a tools developer on several open-source projects (GNU GDB, Embedded Linux, U-Boot, and BusyBox) at Mentor Graphics.
 
 I work at the intersection of distributed systems and machine learning. My research aims to construct efficient and adaptable systems capable of meeting the escalating data requirements of modern applications. Currently, my focus is on Distributed Machine/Federated Learning systems, serverless and microservice-based systems, and quantum computing systems. Over the years, my work has been recognized with several Best Paper awards. I've also been acknowledged with multiple awards from IBM, and I am a co-inventor on more than 15 US patents.
 
