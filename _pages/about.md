@@ -23,6 +23,8 @@ I'm an Assistant Professor in Computer Science and Engineering Department at the
 I work at the intersection of distributed systems and machine learning. My research aims to construct efficient and adaptable systems capable of meeting the escalating data requirements of modern applications. Currently, my focus is on Distributed Machine/Federated Learning systems, serverless and microservice-based systems, and quantum computing systems. Over the years, my work has been recognized with several Best Paper awards. I've also been acknowledged with multiple awards from IBM, and I am a co-inventor on more than 15 US patents.
 
 ### Recent News
+* 🏆 Excited to receive a Samsung GRO 2023 Award on New Storage for Large ML Training (w/ Co-PI Yue Cheng from UVA). Thanks, Samsung Advanced Institute of Technology, for the generous support on our research! 
+* Paper accepted in IEEE BigData'23. Congratulations to Ahmad and Xinran!
 * 🏆 Best paper award from ACM SYSTOR'23 for our work on serving files efficiently in serverless computing.
 * Paper Proposal accepted in I2Q (ISCA'23). Congratulations to Xinran and Connor!
 * Extended Abstract accepted in QCCC (HPDC'23). Congratulations to Xinran and Connor!
@@ -51,6 +53,7 @@ I work at the intersection of distributed systems and machine learning. My resea
 ### Recent Services
 * 2024 PC: FAST'24, SYSTOR'24.
 * Publicity Co-Chair for HPDC'24.
+* Serving on Department of Energy Review Panel.
 * 2023 PC: HPDC'23, Cluster'23, IPDPS'23, IEEE BigData'23, FedVision'23, FL-ICML'23, DistributedML'23.
 * Serving on NSF Proposal Review Panel.
 * Serving as General Co-Chair for HotStorage'23.
