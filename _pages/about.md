@@ -53,7 +53,7 @@ I work at the intersection of distributed systems and machine learning. My resea
 ### Recent Services
 * 2024 PC: FAST'24, SYSTOR'24.
 * Publicity Co-Chair for HPDC'24.
-* Serving on Department of Energy Review Panel.
+* Serving as Department of Energy Proposal Reviewer.
 * 2023 PC: HPDC'23, Cluster'23, IPDPS'23, IEEE BigData'23, FedVision'23, FL-ICML'23, DistributedML'23.
 * Serving on NSF Proposal Review Panel.
 * Serving as General Co-Chair for HotStorage'23.
