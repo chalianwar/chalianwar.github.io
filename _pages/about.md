@@ -70,17 +70,18 @@ I work at the intersection of distributed systems and machine learning. My resea
 
 
 ### Recent Services
-* Serving on NSF Proposal Review Panel.
+* 2024: Serving on NSF Proposal Review Panel.
 * 2024 PC: FAST'24, ICDCS'24, ATC'24.
-* Publicity Co-Chair for HPDC'24.
-* Serving as Department of Energy Proposal Reviewer.
+* 2024: Publicity Co-Chair for HPDC'24.
+* 2024: Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
+* 2023: Serving as Department of Energy Proposal Reviewer.
 * 2023 PC: HPDC'23, Cluster'23, IPDPS'23, IEEE BigData'23, FedVision'23, FL-ICML'23, DistributedML'23.
-* Serving on NSF Proposal Review Panel.
-* Serving as General Co-Chair for HotStorage'23.
-* Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
-* Serving as Grants Co-Chair for HPDC'23.
+* 2023: Serving on NSF Proposal Review Panel.
+* 2023: Serving as General Co-Chair for HotStorage'23.
+* 2023: Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
+* 2023: Serving as Grants Co-Chair for HPDC'23.
 * 2022 PC: ICDCS'22, HPDC'22, FL-NeurIPS'22, FedVision'22, IEEE BigData'22, FL-AAAI'22.
-* Serving as General Co-Chair for HotStorage'22.
-* Serving as publicity Co-Chair for HPDC'22.
+* 2022: Serving as General Co-Chair for HotStorage'22.
+* 2022: Serving as publicity Co-Chair for HPDC'22.
 
   
