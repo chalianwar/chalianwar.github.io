@@ -70,6 +70,7 @@ I work at the intersection of distributed systems and machine learning. My resea
 
 
 ### Recent Services
+* Serving on NSF Proposal Review Panel.
 * 2024 PC: FAST'24, ICDCS'24, ATC'24.
 * Publicity Co-Chair for HPDC'24.
 * Serving as Department of Energy Proposal Reviewer.
