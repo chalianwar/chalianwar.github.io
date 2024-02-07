@@ -43,7 +43,7 @@ I work at the intersection of distributed systems and machine learning. My resea
 
 ### Recent News
 * Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!
-* Paper accepted in Transactions on Storage . Congratulations to Nannan and the team!
+* Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!
 * 🏆 Excited to receive a Samsung GRO 2023 Award on New Storage for Large ML Training (w/ Yue Cheng from UVA). Thanks, Samsung Advanced Institute of Technology, for the generous support on our research! 
 * Paper accepted in IEEE BigData'23. Congratulations to Ahmad and Xinran!
 * 🏆 Best paper award from ACM SYSTOR'23 for our work on serving files efficiently in serverless computing.
