@@ -1,0 +1,516 @@
+<h2>Welcome to the graduate course on Cloud Computing</h2>
+<p>Cloud computing serves many large-scale applications ranging from search engines like Google to social networking websites like Facebook to online stores like Amazon. More recently, cloud computing has emerged as an essential technology to enable emerging fields such as Artificial Intelligence (AI), the Internet of Things (IoT), and Machine Learning. The exponential growth of data availability and demands for security and speed has made the cloud computing paradigm necessary for reliable, financially economical, and scalable computation. The dynamicity and flexibility of Cloud computing have opened up many new forms of deploying applications on infrastructure that cloud service providers offer, such as renting of computation resources and serverless computing.</p>
+<p>This course will cover the fundamentals of cloud services management and cloud software development, including but not limited to design patterns, application programming interfaces, and underlying middleware technologies. More specifically, we will cover the topics of cloud computing service models, data centers resource management, task scheduling, resource virtualization, SLAs, cloud security, software defined networks and storage, cloud storage, and programming models. We will also discuss data center design and management strategies, which enable the economic and technological benefits of cloud computing. Lastly, we will study cloud storage concepts like data distribution, durability, consistency, and redundancy.&nbsp;</p>
+<ul>
+<li>
+<h3><a title="Course Information" href="https://canvas.umn.edu/courses/391506/pages/course-information" data-course-type="wikiPages" data-published="true" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/391506/pages/course-information" data-api-returntype="Page">Course Information</a></h3>
+</li>
+<li>
+<h3><a title="Course Schedule" href="https://canvas.umn.edu/courses/391506/pages/course-schedule" data-course-type="wikiPages" data-published="true" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/391506/pages/course-schedule" data-api-returntype="Page">Course Schedule / Lectures</a></h3>
+</li>
+<li>
+<h3><a title="Leaderboard - KV performance" href="https://canvas.umn.edu/courses/391506/pages/leaderboard-kv-performance" data-course-type="wikiPages" data-published="true" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/391506/pages/leaderboard-kv-performance" data-api-returntype="Page">Leader-board for Distributed KV Store</a></h3>
+</li>
+<li>
+<h3><a title="Final Project Details" href="https://canvas.umn.edu/courses/391506/pages/final-project-details" data-course-type="wikiPages" data-published="true" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/391506/pages/final-project-details" data-api-returntype="Page">Final Project</a></h3>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Lecture Info</h2>
+<ul class="simple">
+<li aria-level="1">Instructor: Ali Anwar</li>
+<li aria-level="1">Meeting time: T,Th 09:45 AM - 11:00 AM</li>
+<li aria-level="1">Location: Elliott Hall N119</li>
+<li aria-level="1">Email: aanwar_AT_umn.edu</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Prerequisite</h2>
+<p>Undergraduate-level Operating System or a similar course is preferred. This course assumes familiarity with systems, including how operating systems work and how networks work. If you don&rsquo;t have this background, you should be in communication with me (the instructor) at the beginning of the semester.</p>
+<p>&nbsp;</p>
+<h2>Who is this course for?</h2>
+<p>This course is primarily intended for graduate students and motivated seniors who want to learn the latest research advances in distributed systems and cloud computing areas, and are interested in building cloud-based distributed systems used/demanded by existing/emerging data-intensive applications.</p>
+<p>&nbsp;</p>
+<h2>Grading policy</h2>
+<div id="grading-policy" class="section">
+<p>Your grade will be calculated as follows:</p>
+<ul class="simple">
+<li>10% homework assignments (potential bonus points as well)</li>
+<li>10% class participation (potential bonus points as well)</li>
+<li>30% coding assignments</li>
+<li>50% research projects</li>
+</ul>
+<p>&nbsp;</p>
+<div id="grading-rules" class="section">
+<h2>Grading rules</h2>
+<p>The final grade is computed according to the following rules:</p>
+<ul class="simple">
+<li>A+: A: [90%, 95%); A-: [85%, 90%)</li>
+<li>B+: [80%, 85%); B: [75%, 80%); B-: [70%, 75%)</li>
+<li>C+: [66%, 70%); C: [63%, 66%); C-: [60%, 63%)</li>
+<li>D+: [56%, 60%); D:[53%, 56%); D-: [50%, 53%)</li>
+<li>F: &lt; 50%</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Late Days</h2>
+<p>Each student will be granted 5 late days to use for the homework. After all free late days are used up, the penalty is 10% for each additional late day. Late days can not be used for the mid-way and final research presentation.</p>
+<p>&nbsp;</p>
+<h2>Student Integrity</h2>
+<p>Cheating in this course will result in a grade of F for the course and the <a href="https://communitystandards.umn.edu/avoid-violations/avoiding-scholastic-dishonesty">University policies</a> will be followed.</p>
+<p>&nbsp;</p>
+<h2 id="overviews">Students with Disabilities</h2>
+<p>If you need any accommodation, you are highly encouraged to contact both your instructor and <a href="https://disability.umn.edu/">Disability Resources Center</a> (DRC).</p>
+<p>&nbsp;</p>
+</div>
+<div id="office-hours" class="section">
+<h2>Office hours</h2>
+<ul class="simple">
+<li>Where: 4-205 <span class="il">Keller</span> <span class="il">hall</span> or Zoom</li>
+<li>When: Wednesday 10 -12 pm</li>
+<li>Additional office hours can be requested via Slack<br /><br /></li>
+</ul>
+<h2>Course Schedule</h2>
+<p>The course schedule is tentative and subject to change.</p>
+<table style="border-collapse: collapse; width: 97.8968%; height: 1758px;" border="1">
+<tbody>
+<tr style="height: 29px;">
+<td style="width: 16.6569%; height: 29px;"><strong>Lecture</strong></td>
+<td style="width: 13.1674%; height: 29px;"><strong>Date</strong></td>
+<td style="width: 21.4425%; height: 29px;"><strong>Topic</strong></td>
+<td style="width: 15.3608%; height: 29px;"><strong>Required Readings</strong></td>
+<td style="width: 16.6569%; height: 29px;"><strong>Optional Readings</strong></td>
+<td style="width: 16.6569%; height: 29px;"><strong>Announcements</strong></td>
+</tr>
+<tr style="height: 245px;">
+<td style="width: 16.6569%; height: 245px;">1</td>
+<td style="width: 13.1674%; height: 245px;">
+<p>Tue: Sept 5</p>
+</td>
+<td style="width: 21.4425%; height: 245px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1bajcbw_KWxoxEo_pgJGG-DYZb2nkEMZ9Qc9ST0ZoTBI/edit?usp=sharing" target="_blank" rel="noopener">Introduction and Logistics</a></td>
+<td style="width: 15.3608%; height: 245px;">
+<p><a href="http://dl.acm.org/citation.cfm?id=1721672">Armbrust2010</a>, <a href="https://dl.acm.org/citation.cfm?id=1925861.1925869">Vaquero11</a></p>
+</td>
+<td style="width: 16.6569%; height: 245px;"><a href="https://support.rackspace.com/how-to/understanding-the-cloud-computing-stack-saas-paas-iaas/">Rackspace2012</a>, <a href="http://oamoim.blogspot.com/2016/08/paas-is-not-middleware-over-iaas.html">Shafii2012</a>, <a href="http://dl.acm.org/citation.cfm?id=2830903.2830913">DeanSOSP2015</a>, <a href="http://dl.acm.org/citation.cfm?id=2987584">Cano2016</a>, <a href="http://dl.acm.org/citation.cfm?id=2382474">Vieira2012</a>, <a href="https://www.youtube.com/watch?v=b7yqd7z1RBQ">Vogels2016</a>, <a href="http://dl.acm.org/citation.cfm?id=2391236">reiss2012</a>, <a href="http://doi.acm.org/10.1145/2168836.2168847">Ferguson2012</a>, <a href="https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final205.pdf">Rajagopalan2013</a>, <a href="http://dx.doi.org/10.1145/2445583.2445588">Das2013</a></td>
+<td style="width: 16.6569%; height: 245px;"><strong>Assignment 1:</strong> student info</td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">2</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Sept 7</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1PaqdJK5d_z2--maRhN_yU_NuH9mJwnL-2wVwaPZCTBI/edit?usp=sharing" target="_blank" rel="noopener">Introduction to Cloud Computing</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p style="text-align: center;">//</p>
+</td>
+<td style="width: 16.6569%; height: 53px; text-align: center;">//</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">3</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Sept 12</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1HdEjizS7CJzQKh4-iutkvTaa8A75wSw08B9wO6ctm-4/edit?usp=sharing" target="_blank" rel="noopener">Virtualization I</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/techpaper/VMware_paravirtualization.pdf" target="_blank" rel="noopener">VMware2007,</a><br /><a class="inline_disabled" href="https://courses.cs.vt.edu/~cs5204/fall07-kafura/Papers/Virtualization/Xen-ShortOverview.pdf" target="_blank" rel="noopener">Xen2005</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;">
+<p><a class="inline_disabled" href="https://www.vmware.com/pdf/asplos235_adams.pdf" target="_blank" rel="noopener">VMware2006</a>,</p>
+<p><a class="inline_disabled" href="https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/techpaper/VMware_paravirtualization.pdf" target="_blank" rel="noopener">VMware2007,</a></p>
+<p><a class="inline_disabled" href="https://dl.acm.org/doi/abs/10.1145/1165389.945462?casa_token=Tgv3iZbig7EAAAAA:r4iGyFsQy-jl5gOcqvC0xs_I2FVuxmRLwF41WAd8gX7zjN6tR4yZfOUYMy3n1lpefEF0VQ2G0aQ" target="_blank" rel="noopener">Xen2003</a>,</p>
+<p><a class="inline_disabled" href="https://courses.cs.vt.edu/~cs5204/fall07-kafura/Papers/Virtualization/Xen-ShortOverview.pdf" target="_blank" rel="noopener">Xen2005</a></p>
+<p>&nbsp;</p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">4</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Sept 14</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1ZDnHILXzi_psvPImoL7XtQz95bT0tZIOyScgf2Lxzmc/edit?usp=sharing" target="_blank" rel="noopener">Virtualization II</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p style="text-align: center;">//</p>
+</td>
+<td style="width: 16.6569%; height: 53px; text-align: center;">//</td>
+<td style="width: 16.6569%; height: 53px;">
+<p><strong>Proposal literature review</strong> due: Sept 26th</p>
+<p><strong>Coding Assignment 1</strong> due: Sept 30th</p>
+</td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">5</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Sept 19</td>
+<td style="width: 21.4425%; height: 53px;">
+<p><a class="inline_disabled" href="https://docs.google.com/presentation/d/1m3wJcmo-9TQhpDOYWcC_RtfkvFpZDqr1aaEzZRuyQQY/edit?usp=sharing" target="_blank" rel="noopener">Containers I</a></p>
+</td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a href="https://lwn.net/Articles/531114/">Namespaces in operation,</a> <br /><a href="https://lwn.net/Articles/524935/">CGroups documentation</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://dl.acm.org/doi/abs/10.1145/3132747.3132763" target="_blank" rel="noopener">VM lighter than container</a>,<br /><a class="inline_disabled" href="https://www.usenix.org/conference/fast16/technical-sessions/presentation/harter" target="_blank" rel="noopener">Slacker</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">6</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Sept 21</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/17yjCQUTxNldtBlhh5SWNWY_JEXXlQqjUZdi8-JtjYXY/edit?usp=sharing" target="_blank" rel="noopener">Container II</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://docs.docker.com/" target="_blank" rel="noopener">Docker docs,</a><br /><a class="inline_disabled" href="https://docs.docker.com/get-started/overview/#docker-architecture" target="_blank" rel="noopener">Docker architecture</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://www.usenix.org/conference/fast18/presentation/anwar" target="_blank" rel="noopener">Improving Docker registry</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>Homework assignment 2:</strong> due date Oct 5th <strong><br /></strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 13.1674%; height: 53px;"><span style="background-color: #ffffff; color: #000000;">Tue: Sept 26</span></td>
+<td style="width: 21.4425%; height: 53px;"><span style="background-color: #bfedd2;"><span style="color: #000000; background-color: #ffffff;">Project Ideas Discussion</span><br /></span></td>
+<td style="width: 15.3608%; height: 53px;">
+<p>&nbsp;</p>
+</td>
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong>
+<p>Proposal and literature review due <strong>Today</strong></p>
+</td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">7</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Sept 28</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/12fCm1Zs8QOoF5t2cXaetnGIa3W3zbu_W1Ut7CttW8fw/edit?usp=sharing" target="_blank" rel="noopener">Cloud Storage</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf" target="_blank" rel="noopener">GFS Paper</a>,</p>
+<p><a class="inline_disabled" href="https://storageconference.us/2010/Papers/MSST/Shvachko.pdf" target="_blank" rel="noopener">HDFS Paper</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://hadoop.apache.org/docs/r1.2.1/hdfs_design.pdf" target="_blank" rel="noopener">Hadoop Architecture Guide</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">8</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Oct 3</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1fLKCR8HB7V8o02O00SdzK6lSgni72HAV14OrRZHQTkk/edit?usp=sharing" target="_blank" rel="noopener">Consistency Models</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://blog.nahurst.com/visual-guide-to-nosql-systems" target="_blank" rel="noopener">Visual Guide to NoSQL Systems</a>,<br /><a class="inline_disabled" href="https://engineering.fb.com/2022/05/04/data-infrastructure/delta/" target="_blank" rel="noopener">Delta Store (Meta)</a>,<br /><a class="inline_disabled" title="Link" href="https://people.cs.vt.edu/~butta/docs/sc18-bespokv.pdf" target="_blank" rel="noopener">BespoKV paper</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://www.cs.cornell.edu/home/rvr/papers/OSDI04.pdf" target="_blank" rel="noopener">Chain Replication</a>,<br /><a class="inline_disabled" href="https://www.usenix.org/legacy/event/usenix09/tech/full_papers/terrace/terrace.pdf" target="_blank" rel="noopener">CRAQ</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">9</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Oct 5</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1V8eQc4X4KORIgYdbvDf6nSh8QgmcUh0M6mqKPTG5I1s/edit?usp=sharing" target="_blank" rel="noopener">Key-Value Stores</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://research.facebook.com/publications/scaling-memcache-at-facebook/" target="_blank" rel="noopener">Scaling Memcached at Facebook,</a><br /><a class="inline_disabled" href="https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf" target="_blank" rel="noopener">DynamoDB</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px; text-align: center;">//</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">10</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Oct 10</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1UUxyvdnXNyEB9CYZKTDiXblgKdsP3ruZDE7XWVYk3io/edit?usp=sharing" target="_blank" rel="noopener">Programming Model I</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf" target="_blank" rel="noopener">MapReduce,</a><br /><a class="inline_disabled" href="https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf" target="_blank" rel="noopener">Spark</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://www.ibm.com/blog/hadoop-vs-spark/" target="_blank" rel="noopener">Hadoop vs Spark</a>,<br /><a class="inline_disabled" href="https://www.geeksforgeeks.org/mapreduce-architecture/" target="_blank" rel="noopener">MapReduce Architecture,</a><br /><a class="inline_disabled" href="https://www.usenix.org/system/files/conference/atc16/atc16_paper-tai.pdf" target="_blank" rel="noopener">Replex</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">11</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Oct 12</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1og1VSuk5Nf4jz_dzZSJNSRvPRLTajiAhMeEYt0ikIHc/edit?usp=sharing" target="_blank" rel="noopener">Programming Model II</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://www.usenix.org/conference/osdi18/presentation/klimovic" target="_blank" rel="noopener">Pocket paper</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;">
+<p><a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf">A Berkeley View on Serverless Computing</a>,<br /><a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf">A Berkeley View of Cloud Computing</a>,<br /><a href="https://tddg.github.io/assets/pdf/socc20-wukong.pdf">The Wukong paper</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;">Mid Project discussions and presentations start next week.<strong><br /></strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Oct 17</td>
+<td style="width: 21.4425%; height: 53px;">
+<p><a class="inline_disabled" href="https://drive.google.com/file/d/1p4nngXfMZ6VIPMzrWD1F5xPq3mrnEZwN/view?usp=sharing" target="_blank" rel="noopener">Patient API</a>,<br /><a class="inline_disabled" href="https://docs.google.com/presentation/d/1pzYyKV2deAtsckT6QHr3bta_KRTF93baAQGkeoXTXdA/edit?usp=sharing" target="_blank" rel="noopener">Incident Migration</a>,<br /><a class="inline_disabled" href="https://docs.google.com/presentation/d/1bdLbOG7Fpz_ZULDUU_CaVAG_X0prwLdy4D579FIQ-JQ/edit#slide=id.g28cb73b6782_0_2161" target="_blank" rel="noopener">AutoScale KV store</a></p>
+</td>
+<td style="width: 15.3608%; height: 53px;">
+<p>Project Discussions</p>
+</td>
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Oct 19</td>
+<td style="width: 21.4425%; height: 53px;">
+<p><a class="inline_disabled" href="https://docs.google.com/presentation/d/1oiK2Yh17o_I3hximEmn4W-pbVk5pWIWfcg-yh9cdGYw/edit#slide=id.g28cad1b262d_0_39" target="_blank" rel="noopener">Harmful Post Detection</a>,<br /><a class="inline_disabled" href="https://docs.google.com/presentation/d/1_k0fExntctLYeQyvgXK7WzYhMqzSslFiL8Eo-Qmeu9s/edit?usp=sharing" target="_blank" rel="noopener">Distributed Fuzzy Inference</a><br /><br /></p>
+</td>
+<td style="width: 15.3608%; height: 53px;">
+<p>Project Discussions</p>
+</td>
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Oct 24</td>
+<td style="width: 21.4425%; height: 53px;">
+<p><a class="inline_disabled" href="https://gamma.app/docs/Multi-Arm-Bandit-sy7oiwmrzy32exm" target="_blank" rel="noopener">Incentivized Collaboration</a>,<br /><a class="inline_disabled" title="Link" href="https://docs.google.com/presentation/d/1X0cW6edD8-b9A4o2lYcO1ArWS-ZgS305myPgO65RmL4/edit?usp=sharing" target="_blank" rel="noopener">Distributed Movie Recommendation</a>,<br /><a class="inline_disabled" href="https://docs.google.com/presentation/d/1y8L1NLaV7BCMEUyJiyv94mvJeOq8ea_G/edit?usp=sharing&amp;ouid=115665055263880371915&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">Model Splitting for Distributed ML</a></p>
+</td>
+<td style="width: 15.3608%; height: 53px;">
+<p>Project Discussions</p>
+</td>
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">12</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Oct 26</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://drive.google.com/file/d/1HyMCrfNeTpu7drIIxuSwp5DdAnBAzm2s/view?usp=sharing" target="_blank" rel="noopener">Serverless Caching</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://www.usenix.org/system/files/fast20-wang_ao.pdf" target="_blank" rel="noopener">InfiniCache</a>,<br /><a class="inline_disabled" href="https://dl.acm.org/doi/abs/10.14778/3587136.3587139" target="_blank" rel="noopener">InfiniStore</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;">
+<p><a class="inline_disabled" href="https://www.usenix.org/conference/osdi18/presentation/klimovic" target="_blank" rel="noopener">Pocket</a>,<br /><a class="inline_disabled" href="https://docs.aws.amazon.com/lambda/latest/dg/welcome.html" target="_blank" rel="noopener">AWS Lambda</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;Coding Assignment 2: </strong>due Nov 5th</td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">13</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Oct 31</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1HvMvyAW0BK9B8NbcJUoQhaqCUkyx-5FRPz2qq4dZDCg/edit?usp=sharing" target="_blank" rel="noopener">Serverless Storage + Parallel Processing</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://dl.acm.org/doi/abs/10.14778/3587136.3587139" target="_blank" rel="noopener">InfiniStore</a>,<br /><a class="inline_disabled" href="https://dl.acm.org/doi/10.1145/3419111.3421286" target="_blank" rel="noopener">Wukong</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://news.ycombinator.com/item?id=25788893" target="_blank" rel="noopener">Hacker News</a>,<br /><a class="inline_disabled" href="https://mikhail.io/2020/03/infinicache-distributed-cache-on-aws-lambda/" target="_blank" rel="noopener">Review</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">14</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Nov 2</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1iKe6is3AX6ye_PDL_Ps8lZ0n2HwcumK21D_TeC2Y680/edit?usp=sharing" target="_blank" rel="noopener">Serverless Parallel Processing + Cloud Control Operations</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://dl.acm.org/doi/10.1145/3419111.3421286" target="_blank" rel="noopener">Wukong</a>,<br /><a class="inline_disabled" href="https://www.usenix.org/system/files/fast21-merenstein.pdf" target="_blank" rel="noopener">CNSBench</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://leap-wukong.readthedocs.io/en/latest/setup/setup_aws_lambda.html" target="_blank" rel="noopener">Wukong Docs</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;<br /></strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">15</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Nov 7</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1e0_d3kAJWC39T4hS59yFIH_hGCIh46ME4ubY2hge1Bw/edit?usp=sharing" target="_blank" rel="noopener">MapReduce Scheduling</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf" target="_blank" rel="noopener">SPARK</a>,<br /><a class="inline_disabled" href="https://ieeexplore.ieee.org/document/6846486" target="_blank" rel="noopener">hatS</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://www.usenix.org/legacy/event/osdi08/tech/full_papers/zaharia/zaharia.pdf" target="_blank" rel="noopener">MapReduce Heterogeneity</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">16</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Nov 9</td>
+<td style="width: 21.4425%; height: 53px;">Coding Assignment 2 design discussion + Demo +<br /><a class="inline_disabled" href="https://docs.google.com/presentation/d/1KJO9yqoRM1_pRls99-e5uE5ixGWaY8Rf9v_uFOlJePs/edit?usp=sharing" target="_blank" rel="noopener">Cloud Resource Management I</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://www.usenix.org/legacy/event/nsdi11/tech/full_papers/Hindman.pdf" target="_blank" rel="noopener">Mesos</a>,</p>
+<p><a class="inline_disabled" href="https://dl.acm.org/doi/abs/10.1145/2907294.2907304" target="_blank" rel="noopener">MOS</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://www.usenix.org/legacy/multimedia/nsdi11hindman/" target="_blank" rel="noopener">Mesos Video</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">17</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Nov 14</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://drive.google.com/file/d/1mr87FBzqhg5nIolVMEY5d2e2tLg_mWnL/view?usp=sharing" target="_blank" rel="noopener">Cloud Resource Management II</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://dl.acm.org/doi/abs/10.1145/2741948.2741964" target="_blank" rel="noopener">Google Borg</a>,<br /><a class="inline_disabled" href="https://dl.acm.org/doi/abs/10.1145/3342195.3387517" target="_blank" rel="noopener">Borg: the next generation</a>,<br /><a class="inline_disabled" href="https://ieeexplore.ieee.org/abstract/document/8622518?casa_token=IJ40VACM5oEAAAAA:_vOmicDIiRKaY0BowfZWz72ipz65D4agFkOdbk9BDqHr8KRadPBeuh4Ol2kLixqJArcEWYA" target="_blank" rel="noopener">Alibaba Trace Analysis</a>,<br /><a class="inline_disabled" href="https://gotocon.com/dl/goto-berlin-2016/slides/JohnWilkes_ClusterManagementAtGoogleWithBorg.pdf" target="_blank" rel="noopener">Borg to Kubernetes</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://dl.acm.org/doi/abs/10.1145/3472883.3487003?casa_token=miEs2vPDpIYAAAAA:MEaUqzHYxJJ9WA1aatcN2FDro5CeKMQTgi2SjSjr_0d4u6Rm0F8UB6ebx1Ru1Ts-m9MZc-lN7RY" target="_blank" rel="noopener">Alibaba Microservice Trace Analysis</a>,<br /><a class="inline_disabled" href="https://www.youtube.com/watch?v=0W49z8hVn0k" target="_blank" rel="noopener">Borg Video</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;Coding Assignment 3: </strong>due Nov 20th</td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">18</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Nov 16</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://drive.google.com/file/d/13-XAPe2FMXTi8JW_pXTGujmiOri72dcD/view?usp=sharing" target="_blank" rel="noopener">Deep Learning in Cloud</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://docs.databricks.com/en/machine-learning/train-model/distributed-training/horovod-runner.html" target="_blank" rel="noopener">Horvod</a>,<br /><a class="inline_disabled" href="https://www.usenix.org/system/files/osdi18-moritz.pdf" target="_blank" rel="noopener">Ray</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;">
+<p><a class="inline_disabled" href="https://aws.amazon.com/startups/learn/scaling-ai-ml-and-accelerating-ai-development-with-anyscale-and-aws" target="_blank" rel="noopener">Why Ray?</a>,<br /><a class="inline_disabled" href="https://youtu.be/XYwIDn00PAo" target="_blank" rel="noopener">Spark Summit</a>,</p>
+<p><a class="inline_disabled" href="https://d2l.ai/chapter_computational-performance/parameterserver.html" target="_blank" rel="noopener">Parameter Server</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">19</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Nov 21</td>
+<td style="width: 21.4425%; height: 53px;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1oQ6B0jnWQmTfqSoG43lI-mRVGf0lQf53ljprjt0A6uo/edit?usp=sharing" target="_blank" rel="noopener">Deep Learning in Cloud II / Federated Learning as a Service</a></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf" target="_blank" rel="noopener">Alpa</a>,<br /><a class="inline_disabled" href="https://ibmfl.res.ibm.com/" target="_blank" rel="noopener">IBM FL</a>,<br /><a class="inline_disabled" href="https://arxiv.org/abs/2001.09249" target="_blank" rel="noopener">TiFL</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://arxiv.org/abs/2302.11665" target="_blank" rel="noopener">AlpaServe</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 13.1674%; height: 53px;"><span style="background-color: #bfedd2;">Thu: Nov 23</span></td>
+<td style="width: 21.4425%; height: 53px;"><span style="background-color: #bfedd2;">Thanksgiving Break</span></td>
+<td style="width: 15.3608%; height: 53px;">
+<p>&nbsp;</p>
+</td>
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">20</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Nov 28</td>
+<td style="width: 21.4425%; height: 53px;"><span style="background-color: #bfedd2;"><span style="color: #000000; background-color: #ffffff;"><a class="inline_disabled" href="https://docs.google.com/presentation/d/1Y7IrSEGCi4iUToG4IkcRAYg1tGEbGyT-73wJ6SAjoHQ/edit?usp=sharing" target="_blank" rel="noopener">Communication in FL</a> <br /></span></span></td>
+<td style="width: 15.3608%; height: 53px;">
+<p><a class="inline_disabled" href="https://dl.acm.org/doi/10.1145/3458817.3476211" target="_blank" rel="noopener">FedAT</a></p>
+</td>
+<td style="width: 16.6569%; height: 53px;"><a class="inline_disabled" href="https://www.usenix.org/conference/osdi21/presentation/lai" target="_blank" rel="noopener">OORT</a></td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Nov 30</td>
+<td style="width: 21.4425%; height: 53px;">
+<p>&nbsp;<a class="inline_disabled" href="https://drive.google.com/file/d/1kOzpDE6rF0EkCzQlui-Dq5sEGvHZoxrg/view?usp=sharing" target="_blank" rel="noopener">Patient API</a>,<br />&nbsp;<a class="inline_disabled" href="https://docs.google.com/presentation/d/1EefVzKTfDT0C4sarF0nuXJ0Z9I1gslZnLR9blU2Jkhk/edit?usp=sharing" target="_blank" rel="noopener">Incident Migration</a>,<br />&nbsp;<a class="inline_disabled" href="https://docs.google.com/presentation/d/13LT_DEKGicnt0us756SJ8C7cyzJJa7EidTRtiUaVjNE/edit?usp=sharing" target="_blank" rel="noopener">Auto Scale KV Store</a></p>
+</td>
+<td style="width: 15.3608%; height: 53px;">
+<p>Project Presentations</p>
+</td>
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;Homework Assignment 3: </strong>due Today<strong><br /></strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Dec 5</td>
+<td style="width: 21.4425%; height: 53px;">
+<p><a class="inline_disabled" href="https://docs.google.com/presentation/d/1qT2pCmuLxCMFgjBv2feMfLEFsKSlz8qlHfndO4WzQHY/edit?usp=sharing" target="_blank" rel="noopener">Harmful Post Detection</a>,<br /><a class="inline_disabled" href="https://docs.google.com/presentation/d/1_k0fExntctLYeQyvgXK7WzYhMqzSslFiL8Eo-Qmeu9s/edit?usp=sharing" target="_blank" rel="noopener">Distributed Fuzzy Inference</a>,<br /><a class="inline_disabled" href="https://gamma.app/docs/Incentivized-Collaborative-Learning-System-dagbyg277qb6sqi?mode=doc" target="_blank" rel="noopener">Incentivized Learning</a></p>
+</td>
+<td style="width: 15.3608%; height: 53px;">
+<p>Project Presentations</p>
+</td>
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 13.1674%; height: 53px;">Thu: Dec 7</td>
+<td style="width: 21.4425%; height: 53px;">
+<p><a class="inline_disabled" href="https://drive.google.com/file/d/1oedaWvbI8dFWoOLrTnj9B6a-Cy_d_dyx/view?usp=sharing" target="_blank" rel="noopener">Model Splitting for ML</a>,<br /><a class="inline_disabled" href="https://docs.google.com/presentation/d/13tNTAeWg9pIF_22v5EMXYopZogKcuuFI/edit?usp=sharing&amp;ouid=115665055263880371915&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">Online Movie Rec.</a></p>
+</td>
+<td style="width: 15.3608%; height: 53px;">
+<p>Project Presentations</p>
+</td>
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 13.1674%; height: 53px;">Tue: Dec 12</td>
+<td style="width: 21.4425%; height: 53px;">Final Report Discussion</td>
+<td style="width: 15.3608%; height: 53px;">
+<p>&nbsp;</p>
+</td>
+<td style="width: 16.6569%; height: 53px;">&nbsp;</td>
+<td style="width: 16.6569%; height: 53px;"><strong>&nbsp;</strong></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Final Project&nbsp;</h2>
+<p id="project-details">The research project can be done in a group of 2 to 3 students. The project will be judged on the following criteria:</p>
+<ul>
+<li>Proposal and literature review (10%)<span style="color: #ba372a;">&nbsp;</span></li>
+<li>Midterm presentation (10%)&nbsp;</li>
+<li>Final presentation (10%)&nbsp;</li>
+<li>Project Report (20%) <span style="color: #e03e2d;"><br /><br /></span></li>
+</ul>
+<h2>Project Proposal Report</h2>
+<p>Recommended structure for the Proposal Report is:</p>
+<ul class="simple">
+<li>Title + abstract.</li>
+<li>Related work: Need to have ~15 references. Reference could be papers, websites (e.g., GitHub repos, Internet articles, blog entries, etc.).</li>
+<li>Motivation + concrete problem statement (need not be formal, only concrete).</li>
+<li>A brief description of your expected approaches/system_design/experiment_design to solve the problem.</li>
+<li>Timeline/Expected milestones for achieving your goals.<br /><br /></li>
+</ul>
+<h2>Mid-way Project Presentation</h2>
+<p>You should present the current progress of your final project including design, related work review, any results if you have some (to show motivation or evaluation).</p>
+<p>&nbsp;</p>
+<h2>Final Project Presentation</h2>
+<p>You should present the final project including design, related work, and final results to showcase your project.</p>
+<p>&nbsp;</p>
+<h2>Project Final Report</h2>
+<p>The final deliverable of this course is <strong>a conference-quality paper</strong>. Focus on the following Questions 0 through 5 (an extended version of Question 0 through 3 in the Checkpoint Report requirement):</p>
+<ul class="simple">
+<li>Question 0: What is/are your <strong>main hypothesis/hypotheses</strong> in the project? This is a one-sentence summary of your paper. Position your paper w.r.t. other related work on the same or even similar problems (reuse relevant parts of your survey report here!). Show to the reader that your work is on a unique point in the design spectrum. Don&rsquo;t overstate it, don&rsquo;t understate it either. This statement is related to Question 5 below (yes, it&rsquo;s a chicken and egg problem!)</li>
+<li>Question 1: What are your <strong>goals</strong>?</li>
+<li>Question 2: What are your <strong>techniques</strong>?</li>
+<li>Question 3: What do your techniques <strong>gain</strong> you?</li>
+<li>Question 4: What do your techniques <strong>lose</strong> you? That is, what are the tradeoffs.</li>
+<li>Question 5: What do your <strong>experiments</strong> tell you? (This is related to Question 0, 3, 4 above, and again, it&rsquo;s an egg and chicken problem!) Show that your data supports your hypothesis, and show the gains, losses, and tradeoffs by using your techniques.</li>
+</ul>
+<p>As well as pay attention to:</p>
+<ul class="simple">
+<li>Importance of problem,</li>
+<li>Novelty of solution,</li>
+<li>Evaluation of solution,</li>
+<li>Clarity of Presentation,</li>
+<li>Nits (grammar, references, etc.).</li>
+</ul>
+<p>It is common that the implementation or experimental methodology gets adapted in the course of your investigation. And therefore, given that this is your final write-up, please make sure to <strong>refine/change/expand based on your mid-way presentation feedback to reflect your latest implementation &amp; evaluation activities</strong>.<br /><br /></p>
+<h3><strong>Leaderboard - KV performance</strong></h3>
+<p>&nbsp;</p>
+<table style="border-collapse: collapse; width: 97.8968%; height: 506px;" border="1">
+<tbody>
+<tr style="height: 29px;">
+<td style="width: 24.9854%; text-align: center; height: 29px;"><strong>Group Members</strong></td>
+<td style="width: 24.9854%; text-align: center; height: 29px;"><strong>Throughput 3 KV Stores</strong></td>
+<td style="width: 24.9854%; text-align: center; height: 29px;"><strong>Average Latency</strong></td>
+<td style="width: 24.9854%; text-align: center; height: 29px;"><strong>Ranking</strong></td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 24.9854%; height: 29px;" width="200">Tejasvi Bansal, Rishabh Agarwal</td>
+<td style="width: 24.9854%; height: 29px;">7362</td>
+<td style="width: 24.9854%; height: 29px;">3.1 ms</td>
+<td style="width: 24.9854%; height: 29px;">&nbsp;</td>
+</tr>
+<tr style="height: 69px;">
+<td style="width: 24.9854%; height: 69px;">Ammar Ahmed, Connor Howe</td>
+<td style="width: 24.9854%; height: 69px;">8240</td>
+<td style="width: 24.9854%; height: 69px;">2.87 ms</td>
+<td style="width: 24.9854%; height: 69px;">&nbsp;</td>
+</tr>
+<tr style="height: 69px;">
+<td style="width: 24.9854%; height: 69px;" width="200">Xinran Wang, Jiaxiang Tang, Minrui Tian</td>
+<td style="width: 24.9854%; height: 69px;">7900</td>
+<td style="width: 24.9854%; height: 69px;">3.20 ms</td>
+<td style="width: 24.9854%; height: 69px;">&nbsp;</td>
+</tr>
+<tr style="height: 69px;">
+<td style="width: 24.9854%; height: 69px;" width="200">Jon Meshesha, Andrew Owens</td>
+<td style="width: 24.9854%; height: 69px;">4456</td>
+<td style="width: 24.9854%; height: 69px;">3.53 ms</td>
+<td style="width: 24.9854%; height: 69px;">&nbsp;</td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 24.9854%; height: 29px;" width="200">Pat Johnson</td>
+<td style="width: 24.9854%; height: 29px;">9572</td>
+<td style="width: 24.9854%; height: 29px;">3.1 ms</td>
+<td style="width: 24.9854%; height: 29px;">&nbsp;</td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 24.9854%; height: 53px;" width="200">Leo Dong, Michael Andrev, Apekshik</td>
+<td style="width: 24.9854%; height: 53px;">30332</td>
+<td style="width: 24.9854%; height: 53px;">1.43 ms</td>
+<td style="width: 24.9854%; height: 53px;">2nd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img style="display: block; margin-left: auto; margin-right: auto;" src="https://canvas.umn.edu/courses/391506/files/39523080/preview" alt="image.png" width="64" height="64" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/391506/files/39523080" data-api-returntype="File" /></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 24.9854%; height: 53px;" width="200">Sahil Raina, Jingxian Chai, Shunichi Sawamura</td>
+<td style="width: 24.9854%; height: 53px;"><span id="cwos" class="qv3Wpe">25588</span></td>
+<td style="width: 24.9854%; height: 53px;">2.9 ms</td>
+<td style="width: 24.9854%; height: 29px;">3rd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<img style="display: block; margin-left: auto; margin-right: auto;" src="https://canvas.umn.edu/courses/391506/files/39523099/preview" alt="image.png" width="64" height="64" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/391506/files/39523099" data-api-returntype="File" /></td>
+</tr>
+<tr style="height: 53px;">
+<td style="width: 24.9854%; height: 53px;" width="200">Aahan Tyagi, Hemanth Kumar, Vishal Kancharla</td>
+<td style="width: 24.9854%; height: 53px;">83865</td>
+<td style="width: 24.9854%; height: 53px;">3.2 ms</td>
+<td style="width: 24.9854%; height: 53px;">1st<img style="display: block; margin-left: auto; margin-right: auto;" src="https://canvas.umn.edu/courses/391506/files/39523035/preview" alt="image.png" width="64" height="64" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/391506/files/39523035" data-api-returntype="File" /></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</div>
+</div>
