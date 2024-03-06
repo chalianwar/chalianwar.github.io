@@ -42,7 +42,7 @@ I'm an Assistant Professor in Computer Science and Engineering Department at the
 I work at the intersection of distributed systems and machine learning. My research aims to construct efficient and adaptable systems capable of meeting the escalating data requirements of modern applications. Currently, my focus is on Distributed Machine/Federated Learning systems, serverless and microservice-based systems, and quantum computing systems. Over the years, my work has been recognized with several Best Paper awards. I've also been acknowledged with multiple awards from IBM, and I am a co-inventor on more than 15 US patents.
 
 ### Recent News
-* Two new papers focusing on LLM caching and storage are now available on arXiv!
+* Two new preprints focusing on LLM caching and storage are now available on arXiv!
 * Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!
 * Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!
 * 🏆 Excited to receive a Samsung GRO 2023 Award on New Storage for Large ML Training (w/ Yue Cheng from UVA). Thanks, Samsung Advanced Institute of Technology, for the generous support on our research! 
