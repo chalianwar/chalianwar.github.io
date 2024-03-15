@@ -42,6 +42,7 @@ I'm an Assistant Professor in Computer Science and Engineering Department at the
 I work at the intersection of distributed systems and machine learning. My research aims to construct efficient and adaptable systems capable of meeting the escalating data requirements of modern applications. Currently, my focus is on Distributed Machine/Federated Learning systems, serverless and microservice-based systems, and quantum computing systems. Over the years, my work has been recognized with several Best Paper awards. I've also been acknowledged with multiple awards from IBM, and I am a co-inventor on more than 15 US patents.
 
 ### Recent News
+* Paper accepted in VLDB'24 on Storage Compressibility of Pre-Trained ML Models. Congratulations to Alex, Ammar, and the team!
 * Two new preprints focusing on LLM caching and storage are now available on arXiv!
 * Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!
 * Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!
