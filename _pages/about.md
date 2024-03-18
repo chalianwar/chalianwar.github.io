@@ -74,8 +74,8 @@ Before joining UMN, I worked at IBM Research as a Research Staff Member in the A
 
 
 ### Recent Services
-* 2024: Serving on NSF Proposal Review Panel.
-* 2024 PC: FAST'24, ICDCS'24, ATC'24.
+* 2024 PC: FAST'24, ICDCS'24, IEEE BigData'24, ATC'24.
+* 2024: Serving on NSF and DOE Proposal Review Panel.
 * 2024: Publicity Co-Chair for HPDC'24.
 * 2024: Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
 * 2023: Serving as Department of Energy Proposal Reviewer.
