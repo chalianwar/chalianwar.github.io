@@ -42,7 +42,8 @@ I am an Assistant Professor in the Computer Science and Engineering Department a
 Before joining UMN, I worked at IBM Research as a Research Staff Member in the AI Platforms team. In my earlier years, I gained invaluable experience working as a tools developer on several open-source projects (GNU GDB, Embedded Linux, U-Boot, and BusyBox) at Mentor Graphics.
 
 ### Recent News
-* Paper accepted in VLDB'24 on Storage Compressibility of Pre-Trained ML Models. Congratulations to Alex, Ammar, and the team!
+* Paper accepted in VLDB'24 on Storage Compressibility of Pre-Trained ML Models. Congratulations to Zhaoyuan, Ammar, and the team!
+* Paper accepted in MSST'24 on Balancing Costs and Durability for Serverless Data. Congratulations to Alex, Xinran, and the team!
 * Two new preprints focusing on LLM caching and storage are now available on arXiv!
 * Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!
 * Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!
