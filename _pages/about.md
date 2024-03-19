@@ -43,9 +43,9 @@ Before joining UMN, I worked at IBM Research as a Research Staff Member in the A
 
 ### Recent News
 <div style="overflow-y: scroll; height:400px;">
-* Paper accepted in VLDB'24 on Storage Compressibility of Pre-Trained ML Models. Congratulations to Zhaoyuan, Ammar, and the team!
-* Paper accepted in MSST'24 on Balancing Costs and Durability for Serverless Data. Congratulations to Alex, Xinran, and the team!
-* Two new preprints focusing on LLM caching and storage are now available on arXiv!
+- Paper accepted in VLDB'24 on Storage Compressibility of Pre-Trained ML Models. Congratulations to Zhaoyuan, Ammar, and the team!
+- Paper accepted in MSST'24 on Balancing Costs and Durability for Serverless Data. Congratulations to Alex, Xinran, and the team!
+- Two new preprints focusing on LLM caching and storage are now available on arXiv!
 * Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!
 * Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!
 * 🏆 Excited to receive a Samsung GRO 2023 Award on New Storage for Large ML Training (w/ Yue Cheng from UVA). Thanks, Samsung Advanced Institute of Technology, for the generous support on our research! 
