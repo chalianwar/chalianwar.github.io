@@ -77,6 +77,8 @@ My work has received recognition with four Best Paper awards. I have also receiv
 * Paper accepted in HotStorage'20. Congratulations to Alex!
 
 ### Recent External Services
+* 2025 PC: FAST'25, ATC'25.
+* 2025: Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
 * 2024 PC: FAST'24, ICDCS'24, IEEE BigData'24, ATC'24.
 * 2024: Serving on NSF Proposal Review Panels.
 * 2024: Publicity Co-Chair for HPDC'24.
