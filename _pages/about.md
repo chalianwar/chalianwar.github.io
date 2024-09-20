@@ -45,8 +45,8 @@ My work has received recognition with four Best Paper awards. I have also receiv
 
 ### Recent News
 * 🏆 I am ranked among the Stanford's World's Top 2% Scientists, 2024.
-* I will be serving as PC Co-Chair for HotStorage 2025.
-* A new preprint focusing on Scalable Quantum Networks is available on arXiv!
+* I will be serving as the PC Co-Chair for HotStorage 2025.
+* A new preprint focusing on Scalable Quantum Networks is now available on arXiv!
 * Three new preprints focusing on Privacy Preserving FL are now available on arXiv!
 * I will be serving on the PC for USENIX FAST'25, ATC'25, and EuroSys'25.
 * A new preprint focusing on LLM finetuning is now available on arXiv!
