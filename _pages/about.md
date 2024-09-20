@@ -43,12 +43,17 @@ Currently, I am working on (1) **Systems for ML**, enhancing computing and stora
 
 My work has received recognition with four Best Paper awards. I have also received multiple awards from IBM, and I am a co-inventor on more than 15 US patents. Additionally, I have received the [Samsung GRO award](https://samsungmsl.com/ "Samsung GRO award") and the [Pratt Fellowship award](https://cs.vt.edu/Graduate/Funding/fellowships.html "Pratt Fellowship award"). I was ranked among the [Stanford's World's Top 2% Scientists](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7) in 2024. Before joining UMN, I worked at [IBM Research Almaden](https://research.ibm.com/labs/almaden "IBM Research Almaden") as a Research Staff Member in the [AI Platforms](https://research.ibm.com/artificial-intelligence "AI Platforms") team. I received my Ph.D. degree in Computer Science from [Virginia Tech](https://cs.vt.edu/ "Virginia Tech"), working with Dr. [Ali R. Butt](https://website.cs.vt.edu/people/faculty/ali-butt.html "Ali R. Butt"). During my Ph.D. I spent three summers at [IBM Research](https://research.ibm.com/ "IBM Research"). In my earlier years, I gained invaluable experience working as a tools developer on several open-source projects ([GNU GDB](https://sourceware.org/gdb/ "GNU GDB"), [Embedded Linux](https://www.yoctoproject.org/ "Embedded Linux"), [U-Boot](https://source.denx.de/u-boot/u-boot "U-Boot"), and [BusyBox](https://www.busybox.net/ "BusyBox")).
 
-### Recent Papers and Awards
+### Recent News
 * 🏆 I am ranked among the Stanford's World's Top 2% Scientists, 2024.
+* I will be serving as PC Co-Chair for HotStorage 2025.
+* A new preprint focusing on Scalable Quantum Networks is available on arXiv!
+* Three new preprints focusing on Privacy Preserving FL are now available on arXiv!
+* I will be serving on the PC for USENIX FAST'25, ATC'25, and EuroSys'25.
 * A new preprint focusing on LLM finetuning is now available on arXiv!
 * Paper accepted in VLDB'24 on Storage Compressibility of Pre-Trained ML Models. Congratulations to Zhaoyuan, Ammar, and the team!
 * Paper accepted in MSST'24 on Balancing Costs and Durability for Serverless Data. Congratulations to Alex, Xinran, and the team!
 * Two new preprints focusing on LLM caching and storage are now available on arXiv!
+* I will be serving on the PC for FAST'24, ICDCS'24, IEEE BigData'24, ATC'24.
 * Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!
 * Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!
 * 🏆 Excited to receive a Samsung GRO 2023 Award on New Storage for Large ML Training (w/ Yue Cheng from UVA). Thanks, Samsung Advanced Institute of Technology, for the generous support on our research!
