@@ -45,9 +45,9 @@ My work has received recognition with five Best Paper awards. I have also receiv
 
 ### Recent News
 * MAP: Multi-Human-Value Alignment of LLM is selected for Oral Presentation (1.8% acceptance rate) at ICLR'25. Congratulations to Xinran!
-* FLStore an efficient Federated Learning store for non-training workloads accepted at MLSys'25 . Congratulation to Sam, Ahmad and the team!
+* FFLStore: An Efficient Federated Learning Store for Non-Training Workloads is accepted at MLSys'25. Congratulation to Sam, Ahmad and the team!
 * 2x papers accepted at ICLR'25 on Probe Pruning and Multi-Human-Value Alignment of LLMs. Congratulations to Qi, Xinran, Ammar, and the team!
-* AID: Adaptive Integration of Detectors for Safe AI accepted to the main conference at NAACL 2025. Congratulations to Xinran and the team!
+* AID: Adaptive Integration of Detectors for Safe AI is accepted to the main conference at NAACL 2025. Congratulations to Xinran and the team!
 * Congratulations to Qi and Azal for getting the Amazon MLSys Fellowship for 2025-2026! Qi will focus on dynamic pruning techniques for LLMs, while Azal will concentrate on enhancing efficiency in agentic workflow systems. Thanks Amazon!
 * 2x papers accepted at IPDPS'25. Congratulations to Waris, Ammar, Ahmad, Azal, Xinran, Qi, and the team!
 * 🏆 Best student paper award from IEEE BigData'24 for our work on tackling resource and data heterogeneity challenges in Federated Learning.
