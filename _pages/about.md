@@ -45,13 +45,13 @@ My work has received recognition with five Best Paper awards. I have also receiv
 
 ### Recent News
 * MAP: Multi-Human-Value Alignment of LLM is selected for Oral Presentation (1.8% acceptance rate) at ICLR'25. Congratulations to Xinran!
-* Paper accepted at MLSys'25 on efficient Federated Learning storage for non-training workloads. Congratulation to Sam, Ahmad and the team!
+* FLStore an efficient Federated Learning store for non-training workloads accepted at MLSys'25 . Congratulation to Sam, Ahmad and the team!
 * 2x papers accepted at ICLR'25 on Probe Pruning and Multi-Human-Value Alignment of LLMs. Congratulations to Qi, Xinran, Ammar, and the team!
-* Paper accepted to the main conference at NAACL 2025 on Adaptive Integration of Detectors for Safe AI. Congratulations to Xinran and the team!
+* AID: Adaptive Integration of Detectors for Safe AI accepted to the main conference at NAACL 2025. Congratulations to Xinran and the team!
 * Congratulations to Qi and Azal for getting the Amazon MLSys Fellowship for 2025-2026! Qi will focus on dynamic pruning techniques for LLMs, while Azal will concentrate on enhancing efficiency in agentic workflow systems. Thanks Amazon!
 * 2x papers accepted at IPDPS'25. Congratulations to Waris, Ammar, Ahmad, Azal, Xinran, Qi, and the team!
 * 🏆 Best student paper award from IEEE BigData'24 for our work on tackling resource and data heterogeneity challenges in Federated Learning.
-* Paper accepted at ICSE'25. Congratulations to Waris and the team!
+* TraceFL accepted at ICSE'25. Congratulations to Waris and the team!
 * 6x papers accepted in BigData'24. Congratulations to Qi, Xinran, Azal, Jiaxang, Connor, and the team!
 * I have been appointed as an Associate Editor for ACM Transactions on Storage (ToS).
 * 🏆 I am ranked among the Stanford's World's Top 2% Scientists, 2024.
