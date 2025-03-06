@@ -37,7 +37,8 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 </script>
 </head>
 
-I am an Assistant Professor in the [Computer Science and Engineering Department](https://cse.umn.edu/cs "Computer Science and Engineering Department") at the [University of Minnesota](https://twin-cities.umn.edu/ "University of Minnesota"). My research covers a range of topics, including distributed systems, machine learning systems, serverless and cloud computing, storage systems, operating systems, high-performance computing, and quantum computing. My current research focuses on designing scalable, high-performance, and easy-to-use **computer systems** that manage and process a huge volume of data.
+I am an Assistant Professor in the [Computer Science and Engineering Department](https://cse.umn.edu/cs "Computer Science and Engineering Department") at the [University of Minnesota](https://twin-cities.umn.edu/ "University of Minnesota"). I focus on designing scalable, high-performance, and user-friendly systems capable of efficiently managing and processing vast volumes of data. My research spans a diverse range of topics within systems, including distributed systems, machine learning systems, serverless and cloud computing, storage
+systems, operating systems, high-performance computing, and quantum computing.
 
 Currently, I am working on (1) **Systems for ML**, enhancing computing and storage systems to support distributed ML more effectively; (2) **Federated Learning**: addressing the challenge of heterogeneity across the stack to optimize Federated Learning systems; (3) **Serverless and FaaS**: innovating serverless computing with an integrated approach encompassing the entire software-hardware spectrum; (4) **Quantum Computing**: developing robust communication systems for quantum computing; (5) **Enhancing AI Safety**: crafting distributed modeling architectures to bolster the safety and reliability of ML systems.
 
