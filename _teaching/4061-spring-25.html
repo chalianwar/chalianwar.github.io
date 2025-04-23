@@ -1,0 +1,801 @@
+<p>Welcome to CSCI 4061!</p>
+<h1 id="important-links">Important Links</h1>
+<ul>
+    <li><a href="https://canvas.umn.edu/courses/482790/assignments/syllabus">Course Syllabus</a>: This defines the structure of the course and all course policies. You are expected to know these policies, so be sure to read over this document.</li>
+    <li><a href="https://canvas.umn.edu/courses/482790/pages/programming-environment-guide" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/482790/pages/programming-environment-guide" data-api-returntype="Page">Programming Environment Guide</a>: To complete your work for this class, you will need to be able to access and use a Linux environment. This guide will help you with the necessary setup.</li>
+    <li><a href="https://canvas.umn.edu/courses/482790/pages/c-programming-resources" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/482790/pages/c-programming-resources" data-api-returntype="Page">C Programming Resources</a>: These will help you learn how to program in C, which we&rsquo;ll be doing a lot of in this course.</li>
+    <li><a href="https://piazza.com/umn/spring2025/csci4061">Piazza</a>: Our discussion platform for the course</li>
+    <li><a href="https://www.gradescope.com/courses/917936">Gradescope</a>: Used to submit and grade your work for coding assignments, view exam grades, and request regrades</li>
+    <li><a href="https://canvas.umn.edu/courses/482790/pages/gdb-guide" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/482790/pages/gdb-guide" data-api-returntype="Page">GDB Gui</a>: A helpful guide to using gdb. Originally written for CSCI 2021 but still relevant for our class.</li>
+    <li>Most emails about the course should be sent to <a href="https://canvas.umn.edu/courses/482790/pages/mailto:s25_4061_staff@umn.edu" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/482790/pages/mailto:s25_4061_staff@umn.edu" data-api-returntype="Page">s25_4061_staff@umn.edu</a> this is an email alias which will send to the entire course staff. If you have something that you don&rsquo;t want to send to all the TAs (personal matters, complaints about a TA, etc) then you can email Ali or I directly, as well as if you think it&rsquo;s something both of us should be aware.</li>
+</ul>
+<h1 id="course-schedule">Course Schedule</h1>
+<table border="2" frame="hsides" rules="groups" cellspacing="0" cellpadding="6">
+    <colgroup>
+        <col class="org-right" />
+    </colgroup>
+    <colgroup>
+        <col class="org-right" />
+    </colgroup>
+    <colgroup>
+        <col class="org-left" />
+    </colgroup>
+    <colgroup>
+        <col class="org-left" />
+    </colgroup>
+    <colgroup>
+        <col class="org-left" />
+    </colgroup>
+    <colgroup>
+        <col class="org-left" />
+    </colgroup>
+    <colgroup>
+        <col class="org-left" />
+    </colgroup>
+    <thead>
+        <tr>
+            <th class="org-right" scope="col">Wk</th>
+            <th class="org-right" scope="col">Date</th>
+            <th class="org-left" scope="col">Lecture</th>
+            <th class="org-left" scope="col">Reading</th>
+            <th class="org-left" scope="col">Quiz/Survey</th>
+            <th class="org-left" scope="col">Lab</th>
+            <th class="org-left" scope="col">Project</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="org-right">1</td>
+            <td class="org-right">2025-01-20</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 1 Released, Enterance Survey Released</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-01-21</td>
+            <td class="org-left">Course Intro, Operating Systems Overview <a href="https://drive.google.com/file/d/19mz0ovqLJ-p1eSV3fpPvrZewNs6gWYqJ/view?usp=sharing">(slides) </a> (<a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/01.zip">code</a>)</td>
+            <td class="org-left">Stevens Ch 1</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-01-22</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-01-23</td>
+            <td class="org-left">C Review <a href="https://drive.google.com/file/d/1IEmXhxncQFVO8Zc_r2QHpYnRbyZ5TtH7/view?usp=sharing">(slides)</a> (<a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/02.zip">code</a>)</td>
+            <td class="org-left">C References, Stevens Chs 1, 5</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-01-24</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">2</td>
+            <td class="org-right">2025-01-27</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 1 Due, Enterance Survey Due, Quiz 2 Released</td>
+            <td class="org-left">Lab 1 (<a href="https://docs.google.com/presentation/d/1zSlLdzLqwnfzQtxqeMtc60JRfDX60PiylUwzVriztiM/edit?usp=drive_link">slides)</a></td>
+            <td class="org-left">Project 1 Released</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-01-28</td>
+            <td class="org-left">Programs and Processes (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec03.pdf">slides</a>, <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/03.zip">code</a>)</td>
+            <td class="org-left">Stevens Ch 7</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-01-29</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 1 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-01-30</td>
+            <td class="org-left">Process Management (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec04.pdf">slides</a>, <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/04.zip">code</a>)</td>
+            <td class="org-left">Stevens Ch 8</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-01-31</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Project 1 Quiz Due</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">3</td>
+            <td class="org-right">2025-02-03</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 2 Due, Quiz 3 Released</td>
+            <td class="org-left">Lab 2 (<a href="https://docs.google.com/presentation/d/1HrUbfGaTH6SRZjGiFXkW9g6rTouA66z66jCA2jjvjCU/edit?usp=sharing">slides)</a></td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-04</td>
+            <td class="org-left">Low-Level I/O Basics (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec05.pdf">slides</a> , <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/05.zip">code</a>)</td>
+            <td class="org-left">Stevens Ch 3</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-05</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 2 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-06</td>
+            <td class="org-left">Advanced I/O Redirection (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec06.pdf">slides</a> , <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/06.zip">code</a>)</td>
+            <td class="org-left">Stevens Ch 3</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">4</td>
+            <td class="org-right">2025-02-10</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 3 Due, Quiz 4 Released</td>
+            <td class="org-left">Lab 3 (<a href="https://www-users.cse.umn.edu/~fount032/4061/labs/Lab%2003.pptx.pdf">slides</a>)</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-11</td>
+            <td class="org-left">File Systems (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec07.pdf">slides</a> , <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/07.zip">code</a>)</td>
+            <td class="org-left">Stevens Ch 4</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-12</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 3 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-13</td>
+            <td class="org-left">More File Systems (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec08.pdf">slides</a> , <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/08.zip">code</a>)</td>
+            <td class="org-left">Stevens Ch 4</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-14</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Project 1 Due</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">5</td>
+            <td class="org-right">2025-02-17</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 4 Due , Quiz 5 Released</td>
+            <td class="org-left">Lab 4 (<a href="https://www-users.cse.umn.edu/~fount032/4061/labs/Lab%2004.pptx.pdf">slides</a>)</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-18</td>
+            <td class="org-left">Exam Review (<a href="https://www-users.cse.umn.edu/~fount032/4061/midterm_stuff/csci4061_sp25_Midterm_1_Practice.pdf">Midterm 1 Practice)</a></td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-19</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 4 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-20</td>
+            <td class="org-left">Midterm 1</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">6</td>
+            <td class="org-right">2025-02-24</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 5 Due</td>
+            <td class="org-left">Lab 5 (<a href="https://www-users.cse.umn.edu/~fount032/4061/labs/Lab%2005.pptx.pdf">slides</a>)</td>
+            <td class="org-left">Project 2 Released, <a href="https://canvas.umn.edu/courses/482790/pages/project-2" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/482790/pages/project-2" data-api-returntype="Page">Assignment</a></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-25</td>
+            <td class="org-left">Virtual Memory (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec09.pdf">slides</a>)</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-26</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 5 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-27</td>
+            <td class="org-left">Finish VM, Start Signals (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec10.pdf">slides</a>)</td>
+            <td class="org-left">Stevens Ch 10</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-02-28</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Project 2 Quiz Due</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">7</td>
+            <td class="org-right">2025-03-03</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 6 Released</td>
+            <td class="org-left">Lab 6 (<a href="https://docs.google.com/presentation/d/1F6DPGdkmIRrXehxN0GuHQNkf66lLc_Qz/edit?usp=sharing&amp;ouid=116718552589044110459&amp;rtpof=true&amp;sd=true">slides)</a></td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-03-04</td>
+            <td class="org-left">Signal Handling (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec11.pdf">slides</a>)</td>
+            <td class="org-left">Stevens Ch 10</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-03-05</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 6 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-03-06</td>
+            <td class="org-left">Interprocess Communication, Pipes (<a href="https://canvas.umn.edu/courses/482790/files/51243797?wrap=1" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/482790/files/51243797" data-api-returntype="File">slides)</a></td>
+            <td class="org-left">Stevens Ch 15.1-15.2</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">N/A</td>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-left">Spring Break</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">8</td>
+            <td class="org-right">2025-03-17</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 6 Due, Quiz 7 Released, Midterm Semester Survey Released</td>
+            <td class="org-left">Lab 7 (<a href="https://docs.google.com/presentation/d/1jbwS1be5afvGvEOX5kprmHdwYVhpLH5xzJoD4S8wO5k/edit?usp=sharing">slides</a>)</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-03-18</td>
+            <td class="org-left">Pipes, Multiplexed I/O (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec13.pdf">slides</a>, <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/13.zip">code</a>)</td>
+            <td class="org-left">Stevens 15.2, 14.4</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-03-19</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 7 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-03-20</td>
+            <td class="org-left">Shared Memory (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec14.pdf">slides</a>, <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/14.zip">code</a>)</td>
+            <td class="org-left">Stevens 15.7, 15.9</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-03-21</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Project 2 Due</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">9</td>
+            <td class="org-right">2025-03-24</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 7 Due, Midterm Semester Survey Due, Quiz 8 Released</td>
+            <td class="org-left">Lab 8 (<a href="https://www-users.cse.umn.edu/~fount032/4061/labs/Lab%2008.pptx.pdf">slides</a>)</td>
+            <td class="org-left">Project 3 Released</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-03-25</td>
+            <td class="org-left">Intro To Networking and Sockets (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec15.pdf">slides)</a></td>
+            <td class="org-left">Stevens Ch 16</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-03-26</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 8 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-03-27</td>
+            <td class="org-left">Sockets and Communication Protocols (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec16.pdf">slides</a>, <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/16.zip">code</a>)</td>
+            <td class="org-left">Stevens Ch 16</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-03-28</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Project 3 Quiz Due</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">10</td>
+            <td class="org-right">2025-03-31</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 8 Due, Quiz 9 Released</td>
+            <td class="org-left">Lab 9 (<a href="https://docs.google.com/presentation/d/1KHIVOLLf_OOsgLynxyAfGioTgmCmselh/edit?usp=sharing&amp;ouid=116718552589044110459&amp;rtpof=true&amp;sd=true">slides</a>)</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-01</td>
+            <td class="org-left">Exam Review</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-02</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 9 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-03</td>
+            <td class="org-left">Midterm 2 <a href="https://canvas.umn.edu/courses/482790/pages/midterm-2" data-api-endpoint="https://canvas.umn.edu/api/v1/courses/482790/pages/midterm-2" data-api-returntype="Page">Midterm 2</a></td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">11</td>
+            <td class="org-right">2025-04-07</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 9 Due</td>
+            <td class="org-left">Lab 10 (<a href="https://www-users.cse.umn.edu/~fount032/4061/labs/Lab%2010.pptx.pdf">slides</a>)</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-08</td>
+            <td class="org-left">TCP Sockets (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec17.pdf">slides</a> , <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/17.zip">code</a>)</td>
+            <td class="org-left">Stevens Ch 16</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-09</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 10 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-10</td>
+            <td class="org-left">Protocols, Intro to Multithreading (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec18.pdf">slides</a> , <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/18.zip">code</a>)</td>
+            <td class="org-left">Stevens Ch 11</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-11</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Project 3 Due</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">12</td>
+            <td class="org-right">2025-04-14</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 10 Released</td>
+            <td class="org-left">Lab 11</td>
+            <td class="org-left">Project 4 Rleased</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-15</td>
+            <td class="org-left">Thread Usage <a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec19.pdf">(slides</a> , <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/19.zip">code</a>)</td>
+            <td class="org-left">Stevens 11, 12</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-16</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 11 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-17</td>
+            <td class="org-left">Thread Synchronization (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec20.pdf">slides</a> , <a href="https://www-users.cse.umn.edu/~fount032/4061/lecture_code/20.zip">code</a>)</td>
+            <td class="org-left">Stevens Ch 11, 12</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-18</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Project 4 Quiz Due</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">13</td>
+            <td class="org-right">2025-04-21</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 10 Due, Quiz 11 Released</td>
+            <td class="org-left">Lab 12</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-22</td>
+            <td class="org-left">Threads and Semaphores (<a href="https://www-users.cse.umn.edu/~fount032/4061/slides/Lec21.pdf">slides</a>)</td>
+            <td class="org-left">Stevens ch 11,12</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-23</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 12 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-24</td>
+            <td class="org-left">Distributed Systems</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">14</td>
+            <td class="org-right">2025-04-28</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 11 Due, Quiz 12 Released</td>
+            <td class="org-left">Lab 13</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-29</td>
+            <td class="org-left">Special Topics, Course Conclusion</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-04-30</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Lab 13 Due</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-05-01</td>
+            <td class="org-left">Final Exam Review (Last day of lecture)</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-05-02</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Project 4 Due</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">25</td>
+            <td class="org-right">2025-05-04</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">Quiz 12 Due</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td class="org-right">&nbsp;</td>
+            <td class="org-right">2025-05-05</td>
+            <td class="org-left">Last Day of Classes</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+            <td class="org-left">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<h1 id="final-exam">Final Exam</h1>
+<p>We have our final exam slot confirmed for all three sections of CSCI 4061:</p>
+<p>Date/time: Monday 05/12/2025 - 8:00a.m.-10:00a.m. Room: Willey Hall 175</p>
+<p>We will soon be sending out information about what to do if you have a conflicting final exam. Keep an eye out for Canvas announcements.</p>
+<p>For those taking the final exam in the DRC you must schedule final exams in the DRC by April 15th, 2025.</p>
+<h1 id="office-hours">Office Hours</h1>
+<p>You can find the office hours schedule <a href="https://docs.google.com/spreadsheets/d/10opjH2Rvo9iGPRiQPhbLv0UDB454tq4SB2K9PlO_-6M/edit?usp=sharing">here</a>.</p>
