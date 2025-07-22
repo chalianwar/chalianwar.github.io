@@ -85,6 +85,9 @@ My work has received recognition with five Best Paper awards. I have also receiv
 * Paper accepted in SC'22. Congratulations to Sixing and Phuong!
 * 🏆 Best paper award from IEEE Cloud'22 for our work on privacy-preserving Federated Learning.
 * 2x papers accepted in IEEE Cloud'22. Congratulations to Jingoo and Ahmad!
+<details>
+<summary><b>Load More</b></summary>
+<ul style="PADDING-LEFT: 12px">
 * Paper accepted in USENIX FAST'21. Congratulations to Alex!
 * Paper accepted in SC'21. Congratulations to Zheng!
 * Paper accepted in AAAI'21. Congratulations to Syed!
@@ -96,6 +99,8 @@ My work has received recognition with five Best Paper awards. I have also receiv
 * Paper accepted in SoCC'20. Congratulations to Benjamin!
 * Paper accepted in HPDC'20. Congratulations to Zheng, Syed, and Ahsan!
 * Paper accepted in HotStorage'20. Congratulations to Alex!
+</ul>
+</details>
 
 ### Recent External Services
 * 2025: Serving as PC Co-Chair for HotStorage'25.
