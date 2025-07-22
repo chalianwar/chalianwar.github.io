@@ -70,26 +70,24 @@ My work has received recognition with five Best Paper awards. I have also receiv
 * Two new preprints focusing on LLM caching and storage are now available on arXiv!
 * I will be serving on the PC for FAST'24, ICDCS'24, IEEE BigData'24, ATC'24.
 * Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!
-* Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!
-* 🏆 Excited to receive a Samsung GRO 2023 Award on New Storage for Large ML Training (w/ Yue Cheng from UVA). Thanks, Samsung Advanced Institute of Technology, for the generous support on our research!
-* Paper accepted in IEEE BigData'23. Congratulations to Ahmad and Xinran!
-* 🏆 Best paper award from ACM SYSTOR'23 for our work on serving files efficiently in serverless computing.
-* Paper Proposal accepted in I2Q (ISCA'23). Congratulations to Xinran and Connor!
-* Extended Abstract accepted in QCCC (HPDC'23). Congratulations to Xinran and Connor!
-* Paper accepted in Systor'23. Congratulations to Alex and the team!
-* Paper accepted in VLDB'23. Congratulations to Jingyuan, Ben, and the team!
-* 2x papers accepted in CCGrid'23. Congratulations to Sixing and Syed!
-* Paper accepted in ICSE'23. Congratulations to Waris!
-* Paper accepted in ASILOMAR'22. Congratulation to Qi!
-* Paper accepted in IEEE BigData'22. Congratulations to Jingoo!
-* Paper accepted in SC'22. Congratulations to Sixing and Phuong!
-* 🏆 Best paper award from IEEE Cloud'22 for our work on privacy-preserving Federated Learning.
-* 2x papers accepted in IEEE Cloud'22. Congratulations to Jingoo and Ahmad!
-
 <details>
 <summary><b>Load More</b></summary>
 <ul style="padding-left: 12px;">
-
+<li>Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!</li>
+<li>🏆 Excited to receive a Samsung GRO 2023 Award on New Storage for Large ML Training (w/ Yue Cheng from UVA). Thanks, Samsung Advanced Institute of Technology, for the generous support on our research!</li>
+<li>Paper accepted in IEEE BigData'23. Congratulations to Ahmad and Xinran!</li>
+<li>🏆 Best paper award from ACM SYSTOR'23 for our work on serving files efficiently in serverless computing.</li>
+<li>Paper Proposal accepted in I2Q (ISCA'23). Congratulations to Xinran and Connor!</li>
+<li>Extended Abstract accepted in QCCC (HPDC'23). Congratulations to Xinran and Connor!</li>
+<li>Paper accepted in Systor'23. Congratulations to Alex and the team!</li>
+<li>Paper accepted in VLDB'23. Congratulations to Jingyuan, Ben, and the team!</li>
+<li>2x papers accepted in CCGrid'23. Congratulations to Sixing and Syed!</li>
+<li>Paper accepted in ICSE'23. Congratulations to Waris!</li>
+<li>Paper accepted in ASILOMAR'22. Congratulation to Qi!</li>
+<li>Paper accepted in IEEE BigData'22. Congratulations to Jingoo!</li>
+<li>Paper accepted in SC'22. Congratulations to Sixing and Phuong!</li>
+<li>🏆 Best paper award from IEEE Cloud'22 for our work on privacy-preserving Federated Learning.</li>
+<li>2x papers accepted in IEEE Cloud'22. Congratulations to Jingoo and Ahmad!</li>
 <li>Paper accepted in USENIX FAST'21. Congratulations to Alex!</li>  
 <li>Paper accepted in SC'21. Congratulations to Zheng!</li>  
 <li>Paper accepted in AAAI'21. Congratulations to Syed!</li>  
@@ -101,13 +99,12 @@ My work has received recognition with five Best Paper awards. I have also receiv
 <li>Paper accepted in SoCC'20. Congratulations to Benjamin!</li>  
 <li>Paper accepted in HPDC'20. Congratulations to Zheng, Syed, and Ahsan!</li>  
 <li>Paper accepted in HotStorage'20. Congratulations to Alex!</li>  
-
 </ul>
 </details>
 
 ### Recent External Services
 * 2025: Serving as PC Co-Chair for HotStorage'25.
-* 2025 PC: FAST'25, ATC'25, EuroSys'25.
+* 2025 PC: FAST'25, ATC'25, EuroSys'25, COLM'25.
 * 2025: Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
 * 2024 PC: FAST'24, ICDCS'24, IEEE BigData'24, ATC'24.
 * 2024: Serving on NSF Proposal Review Panels.
