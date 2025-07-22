@@ -71,7 +71,7 @@ My work has received recognition with five Best Paper awards. I have also receiv
 * I will be serving on the PC for FAST'24, ICDCS'24, IEEE BigData'24, ATC'24.
 * Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!
 <details>
-* <summary><b>Load More</b></summary>
+<summary><b>Load More</b></summary>
 <ul style="padding-left: 12px;">
 <li>Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!</li>
 <li>🏆 Excited to receive a Samsung GRO 2023 Award on New Storage for Large ML Training (w/ Yue Cheng from UVA). Thanks, Samsung Advanced Institute of Technology, for the generous support on our research!</li>
