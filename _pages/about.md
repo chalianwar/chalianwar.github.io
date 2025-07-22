@@ -69,7 +69,7 @@ My work has received recognition with five Best Paper awards. I have also receiv
 * Paper accepted in MSST'24 on Balancing Costs and Durability for Serverless Data. Congratulations to Alex, Xinran, and the team!
 * Two new preprints focusing on LLM caching and storage are now available on arXiv!
 * I will be serving on the PC for FAST'24, ICDCS'24, IEEE BigData'24, ATC'24.
-* Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!
+<li>Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!<\li>
 <details>
 <summary><b>Load More</b></summary>
 <ul style="padding-left: 12px;">
