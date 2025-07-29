@@ -103,6 +103,7 @@ My work has received recognition with five Best Paper awards. I have also receiv
 </details>
 
 ### Recent External Services
+* 2026 PC: AAAI'2026, FAST'26.
 * 2025: Serving as PC Co-Chair for HotStorage'25.
 * 2025 PC: FAST'25, ATC'25, EuroSys'25, COLM'25.
 * 2025: Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
