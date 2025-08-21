@@ -48,7 +48,7 @@ My work has received recognition with five Best Paper awards. I have also receiv
 * Paper accepted at EMNLP'25 Findings on Accelerating LLM Reasoning via Early Rejection. Congratulations to Azal and Xinran!
 * Three new preprints on improving resource efficiency and reasoning in LLMs are now live on arXiv!!
 * Paper accepted at IEEE Quantum Week (QCE'25) on realizing scalability limits of quantum communication networks. Congratulations to Connor!
-* SAFER is accepted at IROS'25. Congratulations to Azal, Michael, Muhammad, and the team!
+* SAFER, our recent work on safety-aware task planning via large language models in robotics, is accepted at IROS'25. Congratulations to Azal, Michael, Muhammad, and the team!
 * Congratulations to Xinran Wang for getting Doctoral Dissertation Fellowship!
 * Congratulations to Aurelius Nguyen for winning Undergraduate Research Opportunities Program (UROP) award!
 * 🏆 MAP: Multi-Human-Value Alignment of LLM is selected for Oral Presentation (1.8% acceptance rate) at ICLR'25. Congratulations to Xinran!
