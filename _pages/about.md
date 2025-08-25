@@ -127,4 +127,13 @@ My work has received recognition with five Best Paper awards. I have also receiv
 <li>2022: Serving as publicity Co-Chair for HPDC'22.</li>
 </ul>
 </details>
+
+## Sponsors
+We gratefully acknowledge the support of our sponsors:
+
+<p align="center">
+  <img src="images/nsf.png" alt="Sponsor 1" width="150"/>
+  <img src="images/samsung.png" alt="Sponsor 2" width="150"/>
+</p>
+
   
