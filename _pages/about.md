@@ -46,6 +46,7 @@ My work has received recognition with five Best Paper awards. I have also receiv
 
 ### Recent News
 * Paper accepted at EMNLP'25 Findings on Accelerating LLM Reasoning via Early Rejection. Congratulations to Azal, Seyyed, Xinran, and the team!
+* 🏆 Excited to receive an NSF PDaSP Track 3 Award (~$1.1M, $366K to UMN) as Lead PI for our project “Testbed for Enhancing Privacy and Robustness of Federated Learning Systems” (w/ Muhammad Ali Gulzar, Virginia Tech & Fatima Anwar, UMass Amherst). Thanks to NSF for supporting our research!
 * Three new preprints on improving resource efficiency and reasoning in LLMs are now live on arXiv!!
 * Paper accepted at IEEE Quantum Week (QCE'25) on realizing scalability limits of quantum communication networks. Congratulations to Connor!
 * SAFER, our recent work on safety-aware task planning via large language models in robotics, is accepted at IROS'25. Congratulations to Azal, Michael, Muhammad, and the team!
