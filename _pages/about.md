@@ -73,9 +73,9 @@ My work has received recognition with five Best Paper awards. I have also receiv
 * Two new preprints focusing on LLM caching and storage are now available on arXiv!
 * I will be serving on the PC for FAST'24, ICDCS'24, IEEE BigData'24, ATC'24.
 * Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!
-<details>
-<summary><b>Load More</b></summary>
-<ul style="padding-left: 12px;">
+<details class="load-more" id="news-archive">
+<summary aria-controls="news-list-archive"><b>Load more news</b></summary>
+<ul id="news-list-archive" style="padding-left: 12px;">
 <li>Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!</li>
 <li>🏆 Excited to receive a Samsung GRO 2023 Award on New Storage for Large ML Training (w/ Yue Cheng from UVA). Thanks, Samsung Advanced Institute of Technology, for the generous support on our research!</li>
 <li>Paper accepted in IEEE BigData'23. Congratulations to Ahmad and Xinran!</li>
@@ -114,9 +114,9 @@ My work has received recognition with five Best Paper awards. I have also receiv
 * 2024: Serving on NSF Proposal Review Panels.
 * 2024: Publicity Co-Chair for HPDC'24.
 * 2024: Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
-<details>
-<summary><b>Load More</b></summary>
-<ul style="padding-left: 12px;">
+<details class="load-more" id="news-archive">
+<summary aria-controls="news-list-archive"><b>Load more news</b></summary>
+<ul id="news-list-archive" style="padding-left: 12px;">
 <li>2023: Serving as Department of Energy Proposal Reviewer.</li>
 <li>2023 PC: HPDC'23, Cluster'23, IPDPS'23, IEEE BigData'23, FedVision'23, FL-ICML'23, DistributedML'23.</li>
 <li>2023: Serving on NSF Proposal Review Panel.</li>
