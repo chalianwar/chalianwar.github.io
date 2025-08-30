@@ -5,24 +5,18 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="en">
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-{% comment %} Accessible skip link {% endcomment %}
-<a class="skip-link" href="#main-content">Skip to main content</a>
-
   <body>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-<main id="main-content" role="main">
     {{ content }}
-</main>
 
     <div class="page__footer">
       <footer>
