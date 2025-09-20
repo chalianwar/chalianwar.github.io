@@ -63,7 +63,6 @@ My work has received recognition with five Best Paper awards. I have also receiv
 * TraceFL accepted at ICSE'25. Congratulations to Waris and the team!
 * 6x papers accepted in BigData'24. Congratulations to Qi, Xinran, Azal, Jiaxang, Connor, and the team!
 * I have been appointed as an Associate Editor for ACM Transactions on Storage (ToS).
-* 🏆 I am ranked among the Stanford's World's Top 2% Scientists, 2024.
 * I will be serving as the PC Co-Chair for HotStorage 2025.
 * A new preprint focusing on Scalable Quantum Networks is now available on arXiv!
 * Three new preprints focusing on Privacy Preserving FL are now available on arXiv!
