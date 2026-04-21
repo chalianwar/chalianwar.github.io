@@ -45,6 +45,8 @@ Currently, I am working on (1) **Systems for ML**, enhancing computing and stora
 My work has received recognition with five Best Paper awards. I have also received multiple awards from IBM, and I am a co-inventor on more than 15 US patents. Additionally, I have received the [Samsung GRO award](https://samsungmsl.com/ "Samsung GRO award") and the [Pratt Fellowship award](https://cs.vt.edu/Graduate/Funding/fellowships.html "Pratt Fellowship award"). Before joining UMN, I worked at [IBM Research Almaden](https://research.ibm.com/labs/almaden "IBM Research Almaden") as a Research Staff Member in the [AI Platforms](https://research.ibm.com/artificial-intelligence "AI Platforms") team. I received my Ph.D. degree in Computer Science from [Virginia Tech](https://cs.vt.edu/ "Virginia Tech"), working with Dr. [Ali R. Butt](https://website.cs.vt.edu/people/faculty/ali-butt.html "Ali R. Butt"). During my Ph.D. I spent three summers at [IBM Research](https://research.ibm.com/ "IBM Research"). In my earlier years, I gained invaluable experience working as a tools developer on several open-source projects ([GNU GDB](https://sourceware.org/gdb/ "GNU GDB"), [Embedded Linux](https://www.yoctoproject.org/ "Embedded Linux"), [U-Boot](https://source.denx.de/u-boot/u-boot "U-Boot"), and [BusyBox](https://www.busybox.net/ "BusyBox")).
 
 ### Recent News
+* 🏆 Excited to receive Cisco Research funding of 75K for six months with Zirui Liu from UMN.
+* Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization for Prompt Engineering is accpeted to ACL'26 Findings. Congratulations to Anas and the team!
 * Retrieval-of-Thought: Efficient Reasoning via Reusing Thoughts is accepted at ICLR'26. Congratulations to Ammar, Azal, and the team!
 * ProToken: Token-Level Attribution for Federated Large Language Models is accepted at MLSys'26. Congratulations to Waris and the team!
 * Adaptive Homomorphic Encryption for Customizable Privacy in Federated Learning is accepted at IEEE INFOCOM'26. Congratulations to Jiaxiang and the team!
@@ -110,7 +112,7 @@ My work has received recognition with five Best Paper awards. I have also receiv
 
 ### Recent External Services
 * 2026: Steering Committee HotStorage.
-* 2026 PC: Senior PC AAAI'2026, FAST'26, EuroSys'26.
+* 2026 PC: Senior PC AAAI'2026, FAST'26, EuroSys'26, SC'26, APSys'26, COLM'26, CVPR'26, ECCV'26.
 * 2025: Serving as PC Co-Chair for HotStorage'25.
 * 2025 PC: FAST'25, ATC'25, EuroSys'25, COLM'25.
 * 2025: Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
