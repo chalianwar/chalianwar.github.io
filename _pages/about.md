@@ -141,6 +141,7 @@ We gratefully acknowledge the support of our sponsors:
 <p align="center">
   <img src="images/nsf.png" alt="Sponsor 1" width="150"/>
   <img src="images/samsung.png" alt="Sponsor 2" width="150"/>
+  img src="images/cisco.png" alt="Sponsor 3" width="150"/>
 </p>
 
   
