@@ -6,7 +6,9 @@
 */
 
 var $nav = $('#site-nav');
-var $btn = $('#site-nav button');
+// Direct-child selector so this only matches the hamburger overflow button,
+// not other buttons placed inside the nav (e.g. the dark mode toggle).
+var $btn = $('#site-nav > button');
 var $vlinks = $('#site-nav .visible-links');
 var $hlinks = $('#site-nav .hidden-links');
 
