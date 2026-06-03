@@ -129,13 +129,13 @@ html[data-theme="dark"] .author__urls-wrapper button {
 }
 
 html[data-theme="dark"] .author__urls {
-  background: var(--dm-bg);
+  background: var(--dm-bg-elevated);
   border-color: var(--dm-border);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 html[data-theme="dark"] .author__urls:before {
-  border-color: var(--dm-bg) transparent;
+  border-color: var(--dm-bg-elevated) transparent;
 }
 
 html[data-theme="dark"] .author__urls a {

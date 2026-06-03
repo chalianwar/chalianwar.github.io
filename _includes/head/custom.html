@@ -30,8 +30,8 @@
   (function () {
     try {
       var stored = localStorage.getItem('theme');
-      // Dark mode is the default; honor an explicit saved choice if present.
-      var theme = 'dark';
+      var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = stored || (prefersDark ? 'dark' : 'light');
       if (theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
