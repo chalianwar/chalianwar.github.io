@@ -31,7 +31,7 @@
     try {
       var stored = localStorage.getItem('theme');
       // Dark mode is the default; honor an explicit saved choice if present.
-      var theme = stored || 'dark';
+      var theme = 'dark';
       if (theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
