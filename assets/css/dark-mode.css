@@ -1,0 +1,266 @@
+/* ==========================================================================
+   Dark mode
+   Scoped overrides applied when <html data-theme="dark"> is set.
+   The base theme is compiled from SCSS with hard-coded light colors, so dark
+   mode is layered on top here as a set of CSS overrides.
+   ========================================================================== */
+
+:root {
+  --dm-bg: #1a1a1d;
+  --dm-bg-elevated: #242428;
+  --dm-bg-code: #2b2b30;
+  --dm-text: #e3e3e6;
+  --dm-text-muted: #a8a8ad;
+  --dm-border: #3a3a40;
+  --dm-link: #7fb0ff;
+  --dm-link-hover: #a9caff;
+  --dm-primary: #e3e3e6;
+}
+
+/* Smooth the flip between themes */
+html[data-theme="dark"],
+html[data-theme="dark"] body,
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .page__footer {
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+/* Base ------------------------------------------------------------------- */
+html[data-theme="dark"] body {
+  background-color: var(--dm-bg);
+  color: var(--dm-text);
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6 {
+  color: var(--dm-text);
+}
+
+html[data-theme="dark"] a {
+  color: var(--dm-link);
+}
+
+html[data-theme="dark"] a:hover,
+html[data-theme="dark"] a:focus {
+  color: var(--dm-link-hover);
+}
+
+html[data-theme="dark"] hr {
+  border-top-color: var(--dm-border);
+}
+
+html[data-theme="dark"] blockquote {
+  border-left-color: var(--dm-primary);
+  color: var(--dm-text-muted);
+}
+
+html[data-theme="dark"] figcaption {
+  color: var(--dm-text-muted);
+}
+
+/* Masthead / navigation -------------------------------------------------- */
+html[data-theme="dark"] .masthead {
+  border-bottom-color: var(--dm-border);
+}
+
+html[data-theme="dark"] .greedy-nav {
+  background: var(--dm-bg);
+}
+
+html[data-theme="dark"] .greedy-nav a {
+  color: var(--dm-text);
+}
+
+html[data-theme="dark"] .greedy-nav a:hover {
+  color: var(--dm-text-muted);
+}
+
+html[data-theme="dark"] .greedy-nav .visible-links a:before {
+  background: var(--dm-link);
+}
+
+html[data-theme="dark"] .greedy-nav button {
+  color: var(--dm-text);
+}
+
+html[data-theme="dark"] .greedy-nav .hidden-links {
+  background: var(--dm-bg-elevated);
+  border-color: var(--dm-border);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+html[data-theme="dark"] .greedy-nav .hidden-links a {
+  color: var(--dm-text);
+}
+
+html[data-theme="dark"] .greedy-nav .hidden-links a:hover {
+  color: var(--dm-text);
+  background: var(--dm-bg-code);
+}
+
+html[data-theme="dark"] .greedy-nav .hidden-links:before {
+  border-color: var(--dm-bg-elevated) transparent;
+}
+
+html[data-theme="dark"] .navicon,
+html[data-theme="dark"] .navicon:before,
+html[data-theme="dark"] .navicon:after {
+  background: var(--dm-text);
+}
+
+/* Sidebar / author profile ---------------------------------------------- */
+html[data-theme="dark"] .author__avatar img {
+  border-color: var(--dm-border);
+}
+
+html[data-theme="dark"] .author__content,
+html[data-theme="dark"] .author__name,
+html[data-theme="dark"] .author__bio {
+  color: var(--dm-text);
+}
+
+html[data-theme="dark"] .author__urls-wrapper button {
+  color: var(--dm-text);
+  border-color: var(--dm-border);
+}
+
+html[data-theme="dark"] .author__urls {
+  background: var(--dm-bg-elevated);
+  border-color: var(--dm-border);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+html[data-theme="dark"] .author__urls:before {
+  border-color: var(--dm-bg-elevated) transparent;
+}
+
+html[data-theme="dark"] .author__urls a {
+  color: var(--dm-text);
+}
+
+/* Footer ----------------------------------------------------------------- */
+html[data-theme="dark"] .page__footer {
+  background-color: var(--dm-bg-elevated);
+  border-top-color: var(--dm-border);
+  color: var(--dm-text-muted);
+}
+
+html[data-theme="dark"] .page__footer a {
+  color: var(--dm-text-muted);
+}
+
+html[data-theme="dark"] .page__footer .fas,
+html[data-theme="dark"] .page__footer .fab,
+html[data-theme="dark"] .page__footer .far,
+html[data-theme="dark"] .page__footer .fal {
+  color: var(--dm-text-muted);
+}
+
+/* Code ------------------------------------------------------------------- */
+html[data-theme="dark"] p > code,
+html[data-theme="dark"] a > code,
+html[data-theme="dark"] li > code,
+html[data-theme="dark"] figcaption > code,
+html[data-theme="dark"] td > code,
+html[data-theme="dark"] pre,
+html[data-theme="dark"] .highlight,
+html[data-theme="dark"] div.highlighter-rouge,
+html[data-theme="dark"] figure.highlight {
+  background: var(--dm-bg-code);
+  color: var(--dm-text);
+  border-color: var(--dm-border);
+}
+
+/* Tables ----------------------------------------------------------------- */
+html[data-theme="dark"] table {
+  color: var(--dm-text);
+  border-color: var(--dm-border);
+}
+
+html[data-theme="dark"] th,
+html[data-theme="dark"] td {
+  border-color: var(--dm-border);
+}
+
+html[data-theme="dark"] thead {
+  background-color: var(--dm-bg-code);
+  border-bottom-color: var(--dm-border);
+}
+
+html[data-theme="dark"] tr,
+html[data-theme="dark"] td {
+  background-color: transparent;
+}
+
+html[data-theme="dark"] tbody tr:nth-child(even) {
+  background-color: var(--dm-bg-elevated);
+}
+
+/* Archive / teaser cards ------------------------------------------------- */
+html[data-theme="dark"] .archive__item-title,
+html[data-theme="dark"] .archive__item-excerpt,
+html[data-theme="dark"] .page__meta {
+  color: var(--dm-text);
+}
+
+html[data-theme="dark"] .archive__item-teaser {
+  border-color: var(--dm-border);
+}
+
+/* Buttons ---------------------------------------------------------------- */
+html[data-theme="dark"] .btn--inverse {
+  background-color: var(--dm-bg-elevated);
+  border-color: var(--dm-border);
+  color: var(--dm-text);
+}
+
+/* Theme toggle button ---------------------------------------------------- */
+.theme-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5em;
+  padding: 0;
+  width: 2.6em;
+  height: 2.6em;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1em;
+  line-height: 1;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.theme-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+html[data-theme="dark"] .theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-toggle .fas {
+  font-size: 1.6em;
+}
+
+/* Show the correct icon per theme */
+.theme-toggle .theme-toggle__moon {
+  display: inline-block;
+}
+.theme-toggle .theme-toggle__sun {
+  display: none;
+}
+html[data-theme="dark"] .theme-toggle .theme-toggle__moon {
+  display: none;
+}
+html[data-theme="dark"] .theme-toggle .theme-toggle__sun {
+  display: inline-block;
+}
