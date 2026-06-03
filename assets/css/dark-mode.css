@@ -283,3 +283,12 @@ html[data-theme="dark"] .theme-toggle__sun,
 html[data-theme="dark"] .theme-toggle__text--light {
   display: inline;
 }
+
+/* Emoji icons in the author sidebar (location, GitHub) — fixed width so they
+   line up with the remaining Font Awesome `fa-fw` icons. */
+.emoji-icon {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+  font-style: normal;
+}
