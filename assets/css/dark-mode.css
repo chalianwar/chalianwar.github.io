@@ -266,21 +266,25 @@ html[data-theme="dark"] .greedy-nav button.theme-toggle:hover {
   margin-right: 0.4em;
 }
 
-/* Show the correct icon + label per theme */
-.theme-toggle__moon,
-.theme-toggle__text--dark {
+/* Show the correct icon + label per theme.
+   Scoped under .theme-toggle so these win over Font Awesome's
+   `.fa,.fas,... { display: inline-block }` (same 0,1,0 specificity) even when
+   a page re-loads Font Awesome AFTER this stylesheet (e.g. publications.html
+   links all.min.css), which would otherwise un-hide the wrong icon. */
+.theme-toggle .theme-toggle__moon,
+.theme-toggle .theme-toggle__text--dark {
   display: inline;
 }
-.theme-toggle__sun,
-.theme-toggle__text--light {
+.theme-toggle .theme-toggle__sun,
+.theme-toggle .theme-toggle__text--light {
   display: none;
 }
-html[data-theme="dark"] .theme-toggle__moon,
-html[data-theme="dark"] .theme-toggle__text--dark {
+html[data-theme="dark"] .theme-toggle .theme-toggle__moon,
+html[data-theme="dark"] .theme-toggle .theme-toggle__text--dark {
   display: none;
 }
-html[data-theme="dark"] .theme-toggle__sun,
-html[data-theme="dark"] .theme-toggle__text--light {
+html[data-theme="dark"] .theme-toggle .theme-toggle__sun,
+html[data-theme="dark"] .theme-toggle .theme-toggle__text--light {
   display: inline;
 }
 
