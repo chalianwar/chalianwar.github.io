@@ -20,8 +20,8 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
+    <button class="btn btn--inverse" type="button" aria-expanded="false" aria-controls="author-urls-list">Follow</button>
+    <ul id="author-urls-list" class="author__urls social-icons">
       {% if author.location %}
         <li><span class="emoji-icon" aria-hidden="true">📍</span> {{ author.location }}</li>
       {% endif %}

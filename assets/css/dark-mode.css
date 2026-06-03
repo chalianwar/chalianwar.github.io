@@ -292,3 +292,46 @@ html[data-theme="dark"] .theme-toggle__text--light {
   text-align: center;
   font-style: normal;
 }
+
+/* ==========================================================================
+   Accessibility
+   ========================================================================== */
+
+/* Skip-to-content link: off-screen until focused via keyboard */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 1000;
+  padding: 0.6em 1em;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0 0 4px 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+html[data-theme="dark"] .skip-link {
+  background: var(--dm-text);
+  color: var(--dm-bg);
+}
+
+/* Lab page member links: lift contrast in dark mode (#007bff fails AA on the
+   dark background; --dm-link is ~7.7:1). */
+html[data-theme="dark"] .member-card a {
+  color: var(--dm-link);
+}
+html[data-theme="dark"] .member-card a:hover {
+  color: var(--dm-link-hover);
+}
+
+/* Respect reduced-motion preferences (theme intro animations + theme fade) */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

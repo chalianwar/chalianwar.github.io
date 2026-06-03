@@ -55,6 +55,7 @@ $(document).ready(function(){
   $(".author__urls-wrapper button").on("click", function() {
     $(".author__urls").fadeToggle("fast", function() {});
     $(".author__urls-wrapper button").toggleClass("open");
+    $(this).attr("aria-expanded", $(this).hasClass("open") ? "true" : "false");
   });
 
   // init smooth scroll

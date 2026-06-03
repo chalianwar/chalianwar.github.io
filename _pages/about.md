@@ -37,6 +37,8 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 </script>
 </head>
 
+<h1 class="sr-only">Ali Anwar</h1>
+
 I am an Assistant Professor in the [Computer Science and Engineering Department](https://cse.umn.edu/cs "Computer Science and Engineering Department") at the [University of Minnesota](https://twin-cities.umn.edu/ "University of Minnesota"), where I focus on designing scalable, high-performance, and user-friendly systems capable of efficiently managing and processing vast volumes of data. My research spans distributed systems, machine learning systems, serverless and cloud computing, storage systems, operating systems, high-performance computing, and quantum computing. Currently, I am working on (1) Systems for ML, enhancing computing and storage systems to support distributed ML more effectively; (2) Enhancing AI Safety: crafting distributed modeling architectures to bolster the safety and reliability of ML systems; (3) Federated Learning: addressing the challenge of heterogeneity across the stack to optimize Federated Learning systems; (4) Quantum Computing: developing robust communication systems for quantum computing; and (5) Serverless and FaaS: innovating serverless computing with an integrated approach encompassing the entire software-hardware spectrum.
 
 
@@ -49,7 +51,7 @@ My work has received recognition with five Best Paper awards. I have also receiv
   .load-more { padding-left: 26px; }
 </style>
 
-### Recent News
+## Recent News
 * 🏆 Excited to receive Cisco Research funding with Zirui Liu from UMN. Thanks to Cisco for supporting our research!
 * Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization for Prompt Engineering is accpeted to ACL'26 Findings. Congratulations to Anas and the team!
 * Retrieval-of-Thought: Efficient Reasoning via Reusing Thoughts is accepted at ICLR'26. Congratulations to Ammar, Azal, and the team!
@@ -115,7 +117,7 @@ My work has received recognition with five Best Paper awards. I have also receiv
 </ul>
 </details>
 
-### Recent External Services
+## Recent External Services
 * 2026: Steering Committee HotStorage.
 * 2026 PC: Senior PC AAAI'2026, FAST'26, EuroSys'26, SC'26, APSys'26, COLM'26, CVPR'26, ECCV'26.
 * 2025: Serving as PC Co-Chair for HotStorage'25.
@@ -125,9 +127,9 @@ My work has received recognition with five Best Paper awards. I have also receiv
 * 2024: Serving on NSF Proposal Review Panels.
 * 2024: Publicity Co-Chair for HPDC'24.
 * 2024: Serving as General Co-Chair for IEEE Special Technical Community on Operating Systems (STCOS).
-<details class="load-more" id="news-archive">
-<summary aria-controls="news-list-archive"><b>Load more news</b></summary>
-<ul id="news-list-archive" style="padding-left: 12px;">
+<details class="load-more" id="services-archive">
+<summary aria-controls="services-list-archive"><b>Load more services</b></summary>
+<ul id="services-list-archive" style="padding-left: 12px;">
 <li>2023: Serving as Department of Energy Proposal Reviewer.</li>
 <li>2023 PC: HPDC'23, Cluster'23, IPDPS'23, IEEE BigData'23, FedVision'23, FL-ICML'23, DistributedML'23.</li>
 <li>2023: Serving on NSF Proposal Review Panel.</li>

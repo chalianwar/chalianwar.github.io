@@ -69,6 +69,7 @@ $(window).resize(function() {
 $btn.on('click', function() {
   $hlinks.toggleClass('hidden');
   $(this).toggleClass('close');
+  $(this).attr('aria-expanded', $hlinks.hasClass('hidden') ? 'false' : 'true');
 });
 
 updateNav();
