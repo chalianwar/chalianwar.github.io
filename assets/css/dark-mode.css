@@ -17,6 +17,12 @@
   --dm-primary: #e3e3e6;
 }
 
+/* Global type scale — reduce base font size site-wide */
+html { font-size: 15px; }
+@media (min-width: 48em) {
+  html { font-size: 16px; }
+}
+
 /* Smooth the flip between themes */
 html[data-theme="dark"],
 html[data-theme="dark"] body,
