@@ -117,6 +117,7 @@ My work has received recognition with five Best Paper awards. I have also receiv
 </ul>
 </details>
 
+<!--
 ## Recent External Services
 * 2026: Steering Committee HotStorage.
 * 2026 PC: Senior PC AAAI'2026, FAST'26, EuroSys'26, SC'26, APSys'26, COLM'26, CVPR'26, ECCV'26.
@@ -141,6 +142,7 @@ My work has received recognition with five Best Paper awards. I have also receiv
 <li>2022: Serving as publicity Co-Chair for HPDC'22.</li>
 </ul>
 </details>
+-->
 
 ## Sponsors
 We gratefully acknowledge the support of our sponsors:
