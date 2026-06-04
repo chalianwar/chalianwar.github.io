@@ -339,3 +339,58 @@ html[data-theme="dark"] .member-card a:hover {
     scroll-behavior: auto !important;
   }
 }
+
+/* ==========================================================================
+   UI/UX
+   ========================================================================== */
+
+/* Active page indicator in the masthead nav */
+.greedy-nav .visible-links a.active {
+  font-weight: 700;
+}
+.greedy-nav .visible-links a.active:before {
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+}
+.greedy-nav .hidden-links a.active {
+  font-weight: 700;
+}
+
+/* Scrollable "Recent News" box (replaces the Load-more toggle) */
+.news-scroll {
+  max-height: 340px;
+  overflow-y: auto;
+  padding: 0.4em 1.1em;
+  margin-bottom: 1.4em;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+.news-scroll ul {
+  margin: 0;
+  padding-left: 1.1em;
+}
+.news-scroll li {
+  margin-bottom: 0.55em;
+}
+.news-scroll:focus {
+  outline: 2px solid var(--dm-link);
+  outline-offset: 2px;
+}
+/* Thin, theme-aware scrollbar */
+.news-scroll {
+  scrollbar-width: thin;
+}
+.news-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.news-scroll::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+html[data-theme="dark"] .news-scroll {
+  border-color: var(--dm-border);
+}
+html[data-theme="dark"] .news-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}

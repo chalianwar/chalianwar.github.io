@@ -39,83 +39,37 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 <h1 class="sr-only">Ali Anwar</h1>
 
-I am an Assistant Professor in the [Computer Science and Engineering Department](https://cse.umn.edu/cs "Computer Science and Engineering Department") at the [University of Minnesota](https://twin-cities.umn.edu/ "University of Minnesota"), where I focus on designing scalable, high-performance, and user-friendly systems capable of efficiently managing and processing vast volumes of data. My research spans distributed systems, machine learning systems, serverless and cloud computing, storage systems, operating systems, high-performance computing, and quantum computing. Currently, I am working on (1) Systems for ML, enhancing computing and storage systems to support distributed ML more effectively; (2) Enhancing AI Safety: crafting distributed modeling architectures to bolster the safety and reliability of ML systems; (3) Federated Learning: addressing the challenge of heterogeneity across the stack to optimize Federated Learning systems; (4) Quantum Computing: developing robust communication systems for quantum computing; and (5) Serverless and FaaS: innovating serverless computing with an integrated approach encompassing the entire software-hardware spectrum.
+I am an Assistant Professor in the [Computer Science and Engineering Department](https://cse.umn.edu/cs "Computer Science and Engineering Department") at the [University of Minnesota](https://twin-cities.umn.edu/ "University of Minnesota"), where I build systems that make machine learning and data-intensive computing faster, cheaper, and more trustworthy across the full stack, from storage and serverless runtimes up through distributed training and large-model inference. My core focus is efficient reasoning and systems for large language models: by storing, reusing, and pruning the intermediate computation that models would otherwise discard, my group cuts the cost and latency of inference without sacrificing answer quality. A second thread makes these systems trustworthy, spanning federated learning under privacy, robustness, and heterogeneity constraints, and AI safety and alignment through distributed architectures for more reliable ML. I also work on serverless and FaaS computing across the software–hardware spectrum, and on scheduling for distributed quantum computing that jointly accounts for compute, network, and data locality.
 
-
-My work has received recognition with five Best Paper awards. I have also received multiple awards from IBM, and I am a co-inventor on more than 15 US patents. Additionally, I have received the [Samsung GRO award](https://semiconductor.samsung.com/sait/event/global-research-outreach/) and the [Pratt Fellowship award](https://cs.vt.edu/Graduate/Funding/fellowships.html "Pratt Fellowship award"). Before joining UMN, I worked at [IBM Research Almaden](https://research.ibm.com/labs/almaden "IBM Research Almaden") as a Research Staff Member in the [AI Platforms](https://research.ibm.com/artificial-intelligence "AI Platforms") team. I received my Ph.D. degree in Computer Science from [Virginia Tech](https://cs.vt.edu/ "Virginia Tech"), working with Dr. [Ali R. Butt](https://website.cs.vt.edu/people/faculty/ali-butt.html "Ali R. Butt"). During my Ph.D. I spent three summers at [IBM Research](https://research.ibm.com/ "IBM Research"). In my earlier years, I gained invaluable experience working as a tools developer on several open-source projects ([GNU GDB](https://sourceware.org/gdb/ "GNU GDB"), [Embedded Linux](https://www.yoctoproject.org/ "Embedded Linux"), [U-Boot](https://source.denx.de/u-boot/u-boot "U-Boot"), and [BusyBox](https://www.busybox.net/ "BusyBox")).
-
-<style>
-  /* Align the "Load more news" label with the news bullet text above it.
-     The list indents text 40px; the <summary> triangle adds ~14px, so 26px
-     lands the label at the same left edge as the bullet text. */
-  .load-more { padding-left: 26px; }
-</style>
+My work has received five Best Paper awards, multiple awards from IBM, the [Samsung GRO award](https://semiconductor.samsung.com/sait/event/global-research-outreach/), and the [Pratt Fellowship award](https://cs.vt.edu/Graduate/Funding/fellowships.html "Pratt Fellowship award"), and I am a co-inventor on more than 15 US patents. Before joining UMN, I was a Research Staff Member on the [AI Platforms](https://research.ibm.com/artificial-intelligence "AI Platforms") team at [IBM Research Almaden](https://research.ibm.com/labs/almaden "IBM Research Almaden"). I received my Ph.D. in Computer Science from [Virginia Tech](https://cs.vt.edu/ "Virginia Tech"), advised by Dr. [Ali R. Butt](https://website.cs.vt.edu/people/faculty/ali-butt.html "Ali R. Butt"), and spent three summers at [IBM Research](https://research.ibm.com/ "IBM Research") during my doctorate. Earlier in my career I worked as a tools developer on several open-source projects, including [GNU GDB](https://sourceware.org/gdb/ "GNU GDB"), [Embedded Linux](https://www.yoctoproject.org/ "Embedded Linux"), [U-Boot](https://source.denx.de/u-boot/u-boot "U-Boot"), and [BusyBox](https://www.busybox.net/ "BusyBox").
 
 ## Recent News
-* 🏆 Excited to receive Cisco Research funding with Zirui Liu from UMN. Thanks to Cisco for supporting our research!
-* Sem-DPO: Mitigating Semantic Inconsistency in Preference Optimization for Prompt Engineering is accpeted to ACL'26 Findings. Congratulations to Anas and the team!
-* Retrieval-of-Thought: Efficient Reasoning via Reusing Thoughts is accepted at ICLR'26. Congratulations to Ammar, Azal, and the team!
-* ProToken: Token-Level Attribution for Federated Large Language Models is accepted at MLSys'26. Congratulations to Waris and the team!
-* Adaptive Homomorphic Encryption for Customizable Privacy in Federated Learning is accepted at IEEE INFOCOM'26. Congratulations to Jiaxiang and the team!
-* Quantile‑Guided Alignment paper accepted as a Spotlight at NeurIPS'25. Congratulations to Xinran, Jin, Azal, Qi, and the team!
-* Paper accepted at EMNLP'25 Findings on Accelerating LLM Reasoning via Early Rejection. Congratulations to Azal, Seyyed, Xinran, and the team!
-* 🏆 Excited to receive an NSF PDaSP Track 3 Award as Lead PI for our project “Testbed for Enhancing Privacy and Robustness of Federated Learning Systems” (w/ Muhammad Ali Gulzar, Virginia Tech & Fatima Anwar, UMass Amherst). Thanks to NSF for supporting our research!
-* Three new preprints on improving resource efficiency and reasoning in LLMs are now live on arXiv!!
-* Paper accepted at IEEE Quantum Week (QCE'25) on realizing scalability limits of quantum communication networks. Congratulations to Connor!
-* SAFER, our recent work on safety-aware task planning via large language models in robotics, is accepted at IROS'25. Congratulations to Azal, Michael, Muhammad, and the team!
-* Congratulations to Xinran Wang for getting Doctoral Dissertation Fellowship!
-* Congratulations to Aurelius Nguyen for winning Undergraduate Research Opportunities Program (UROP) award!
-* 🏆 MAP: Multi-Human-Value Alignment of LLM is selected for Oral Presentation (1.8% acceptance rate) at ICLR'25. Congratulations to Xinran!
-* FLStore: An Efficient Federated Learning Store for Non-Training Workloads is accepted at MLSys'25. Congratulation to Sam, Ahmad and the team!
-* 2x papers accepted at ICLR'25 on Probe Pruning and Multi-Human-Value Alignment of LLMs. Congratulations to Qi, Xinran, Ammar, and the team!
-* AID: Adaptive Integration of Detectors for Safe AI is accepted to the main conference at NAACL 2025. Congratulations to Xinran and the team!
-* Congratulations to Qi and Azal for getting the Amazon MLSys Fellowship for 2025-2026! Qi will focus on dynamic pruning techniques for LLMs, while Azal will concentrate on enhancing efficiency in agentic workflow systems. Thanks Amazon!
-* 2x papers accepted at IPDPS'25. Congratulations to Waris, Ammar, Ahmad, Azal, Xinran, Qi, and the team!
-* 🏆 Best student paper award from IEEE BigData'24 for our work on tackling resource and data heterogeneity challenges in Federated Learning.
-* TraceFL accepted at ICSE'25. Congratulations to Waris and the team!
-* 6x papers accepted in BigData'24. Congratulations to Qi, Xinran, Azal, Jiaxang, Connor, and the team!
-* I have been appointed as an Associate Editor for ACM Transactions on Storage (ToS).
-* I will be serving as the PC Co-Chair for HotStorage 2025.
-* A new preprint focusing on Scalable Quantum Networks is now available on arXiv!
-* Three new preprints focusing on Privacy Preserving FL are now available on arXiv!
-* I will be serving on the PC for USENIX FAST'25, ATC'25, and EuroSys'25.
-* A new preprint focusing on LLM finetuning is now available on arXiv!
-* Paper accepted in VLDB'24 on Storage Compressibility of Pre-Trained ML Models. Congratulations to Zhaoyuan, Ammar, and the team!
-* Paper accepted in MSST'24 on Balancing Costs and Durability for Serverless Data. Congratulations to Alex, Xinran, and the team!
-* Two new preprints focusing on LLM caching and storage are now available on arXiv!
-* I will be serving on the PC for FAST'24, ICDCS'24, IEEE BigData'24, ATC'24.
-* Paper accepted in EuroSys'24. Congratulations to Ahmad, Azal, Sam, and the team!
-<details class="load-more" id="news-archive">
-<summary aria-controls="news-list-archive"><b>Load more news</b></summary>
-<ul id="news-list-archive" style="padding-left: 12px;">
+<div class="news-scroll" tabindex="0" role="region" aria-label="Recent news">
+<ul>
+<li>🏆 Excited to receive Cisco Research funding with Zirui Liu from UMN. Thanks to Cisco for supporting our research!</li>
+<li>Four papers accepted in 2026 — Sem-DPO (ACL'26 Findings), Retrieval-of-Thought (ICLR'26), ProToken (MLSys'26), and AHE: Adaptive Homomorphic Encryption (INFOCOM'26). Congratulations to Anas, Ammar, Azal, Waris, Jiaxiang, and the teams!</li>
+<li>Quantile-Guided Alignment accepted as a Spotlight at NeurIPS'25, and Accelerating LLM Reasoning via Early Rejection at EMNLP'25 Findings. Congratulations to Xinran, Jin, Azal, Qi, Seyyed, and the teams!</li>
+<li>🏆 Excited to receive an NSF PDaSP Track 3 Award as Lead PI for our project "Testbed for Enhancing Privacy and Robustness of Federated Learning Systems" (w/ Muhammad Ali Gulzar, Virginia Tech & Fatima Anwar, UMass Amherst). Thanks to NSF for supporting our research!</li>
+<li>Three new preprints on improving resource efficiency and reasoning in LLMs are now live on arXiv!</li>
+<li>Papers accepted at IEEE Quantum Week (QCE'25) on scalability limits of quantum communication networks and at IROS'25 — SAFER, safety-aware task planning via LLMs in robotics. Congratulations to Connor, Azal, Michael, Muhammad, and the teams!</li>
+<li>Congratulations to Xinran Wang (Doctoral Dissertation Fellowship) and Aurelius Nguyen (UROP award)!</li>
+<li>🏆 MAP: Multi-Human-Value Alignment of LLM selected for Oral Presentation (1.8% acceptance rate) at ICLR'25. Congratulations to Xinran!</li>
+<li>FLStore: An Efficient Federated Learning Store for Non-Training Workloads is accepted at MLSys'25. Congratulations to Sam, Ahmad, and the team!</li>
+<li>More 2025 papers accepted — Probe Pruning (ICLR'25), AID: Adaptive Integration of Detectors for Safe AI (NAACL'25), two papers at IPDPS'25, and TraceFL (ICSE'25). Congratulations to Qi, Xinran, Ammar, Waris, Azal, and the teams!</li>
+<li>Congratulations to Qi and Azal for getting the Amazon MLSys Fellowship for 2025-2026! Thanks Amazon!</li>
+<li>2024 acceptances — 🏆 Best Student Paper at IEEE BigData'24 (plus six papers there), VLDB'24 (Storage Compressibility of Pre-Trained ML Models), MSST'24 (cost/durability for serverless data), and EuroSys'24. Congratulations to the teams!</li>
+<li>Several new preprints on scalable quantum networks, privacy-preserving FL, LLM finetuning, and LLM caching/storage are now available on arXiv!</li>
 <li>Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!</li>
 <li>🏆 Excited to receive a Samsung GRO 2023 Award on New Storage for Large ML Training (w/ Yue Cheng from UVA). Thanks, Samsung Advanced Institute of Technology, for the generous support on our research!</li>
-<li>Paper accepted in IEEE BigData'23. Congratulations to Ahmad and Xinran!</li>
-<li>🏆 Best paper award from ACM SYSTOR'23 for our work on serving files efficiently in serverless computing.</li>
-<li>Paper Proposal accepted in I2Q (ISCA'23). Congratulations to Xinran and Connor!</li>
-<li>Extended Abstract accepted in QCCC (HPDC'23). Congratulations to Xinran and Connor!</li>
-<li>Paper accepted in Systor'23. Congratulations to Alex and the team!</li>
-<li>Paper accepted in VLDB'23. Congratulations to Jingyuan, Ben, and the team!</li>
-<li>2x papers accepted in CCGrid'23. Congratulations to Sixing and Syed!</li>
-<li>Paper accepted in ICSE'23. Congratulations to Waris!</li>
-<li>Paper accepted in ASILOMAR'22. Congratulation to Qi!</li>
-<li>Paper accepted in IEEE BigData'22. Congratulations to Jingoo!</li>
-<li>Paper accepted in SC'22. Congratulations to Sixing and Phuong!</li>
-<li>🏆 Best paper award from IEEE Cloud'22 for our work on privacy-preserving Federated Learning.</li>
-<li>2x papers accepted in IEEE Cloud'22. Congratulations to Jingoo and Ahmad!</li>
-<li>Paper accepted in USENIX FAST'21. Congratulations to Alex!</li>  
-<li>Paper accepted in SC'21. Congratulations to Zheng!</li>  
-<li>Paper accepted in AAAI'21. Congratulations to Syed!</li>  
-<li>Paper accepted in IEEE Cloud'21. Congratulations to Kamala!</li>  
-<li>🏆 Best paper award from ePart'21 for our work on accountable Federated Learning.</li>  
-<li>2x papers accepted in TPDS. Congratulations to Nannan and Ali!</li>  
-<li>Paper accepted in USENIX ATC'20. Congratulations to Nannan!</li>  
-<li>Paper accepted in USENIX FAST'20. Congratulations to Ao!</li>  
-<li>Paper accepted in SoCC'20. Congratulations to Benjamin!</li>  
-<li>Paper accepted in HPDC'20. Congratulations to Zheng, Syed, and Ahsan!</li>  
-<li>Paper accepted in HotStorage'20. Congratulations to Alex!</li>  
+<li>Multiple 2023 papers accepted — IEEE BigData'23, I2Q (ISCA'23), QCCC (HPDC'23), SYSTOR'23, VLDB'23, two papers at CCGrid'23, and ICSE'23. Congratulations to Ahmad, Xinran, Connor, Alex, Jingyuan, Ben, Sixing, Syed, Waris, and the teams!</li>
+<li>🏆 Best Paper award at ACM SYSTOR'23 for serving files efficiently in serverless computing.</li>
+<li>2022 papers accepted — ASILOMAR'22, IEEE BigData'22, SC'22, and two papers at IEEE Cloud'22. Congratulations to Qi, Jingoo, Sixing, Phuong, and Ahmad!</li>
+<li>🏆 Best Paper award at IEEE Cloud'22 for privacy-preserving Federated Learning.</li>
+<li>2021 papers accepted — USENIX FAST'21, SC'21, AAAI'21, and IEEE Cloud'21. Congratulations to Alex, Zheng, Syed, and Kamala!</li>
+<li>🏆 Best Paper award at ePart'21 for accountable Federated Learning; plus two papers in TPDS. Congratulations to Nannan and Ali!</li>
+<li>2020 papers accepted — USENIX ATC'20, USENIX FAST'20, SoCC'20, HPDC'20, and HotStorage'20. Congratulations to Nannan, Ao, Benjamin, Zheng, Syed, Ahsan, and Alex!</li>
 </ul>
-</details>
+</div>
 
 <!--
 ## Recent External Services
