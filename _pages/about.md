@@ -47,7 +47,7 @@ My work has received five Best Paper awards, multiple awards from IBM, the [Sams
 <div class="news-scroll" tabindex="0" role="region" aria-label="Recent news">
 <ul>
 <li>🏆 Excited to receive an NSF CSSI award as PI for ML4GW — a machine learning ecosystem for gravitational-wave data analysis (w/ Michael W. Coughlin (UMN), Erotokritos Katsavounidis (MIT), and Philip C. Harris (MIT)). Thanks to NSF for supporting our research!</li>
-<li>New preprint: Faster Synchronous On-Policy RL via Straggler-Aware Group Sizing (<a href="https://arxiv.org/abs/2606.02218">arXiv:2606.02218</a>). Congratulations to Azal, Ammar, Zeshan, and the team!</li>
+<li>New preprint: Faster Synchronous On-Policy RL via Straggler-Aware Group Sizing. Congratulations to Azal, Ammar, Zeshan, and the team!</li>
 <li>🏆 Excited to receive Cisco Research funding with Zirui Liu from UMN. Thanks to Cisco for supporting our research!</li>
 <li>Four papers accepted in 2026 — Sem-DPO (ACL'26 Findings), Retrieval-of-Thought (ICLR'26), ProToken (MLSys'26), and AHE: Adaptive Homomorphic Encryption (INFOCOM'26). Congratulations to Anas, Ammar, Azal, Waris, Jiaxiang, and the teams!</li>
 <li>Quantile-Guided Alignment accepted as a Spotlight at NeurIPS'25, and Accelerating LLM Reasoning via Early Rejection at EMNLP'25 Findings. Congratulations to Xinran, Jin, Azal, Qi, Seyyed, and the teams!</li>
