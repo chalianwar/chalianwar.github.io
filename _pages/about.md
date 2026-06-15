@@ -63,7 +63,7 @@ My work has received five Best Paper awards, multiple awards from IBM, the [Sams
 <li>Several new preprints on scalable quantum networks, privacy-preserving FL, LLM finetuning, and LLM caching/storage are now available on arXiv!</li>
 <li>Paper accepted in Transactions on Storage. Congratulations to Nannan and the team!</li>
 <li>🏆 Excited to receive a Samsung GRO 2023 Award on New Storage for Large ML Training (w/ Yue Cheng from UVA). Thanks, Samsung Advanced Institute of Technology, for the generous support on our research!</li>
-<li>Multiple 2023 papers accepted — IEEE BigData'23, I2Q (ISCA'23), QCCC (HPDC'23), SYSTOR'23, VLDB'23, two papers at CCGrid'23, and ICSE'23. Congratulations to Ahmad, Xinran, Connor, Alex, Jingyuan, Ben, Sixing, Syed, Waris, and the teams!</li>
+<li>Multiple 2023 papers accepted — IEEE BigData'23, SYSTOR'23, VLDB'23, two papers at CCGrid'23, and ICSE'23. Congratulations to Ahmad, Xinran, Connor, Alex, Jingyuan, Ben, Sixing, Syed, Waris, and the teams!</li>
 <li>🏆 Best Paper award at ACM SYSTOR'23 for serving files efficiently in serverless computing.</li>
 <li>2022 papers accepted — ASILOMAR'22, IEEE BigData'22, SC'22, and two papers at IEEE Cloud'22. Congratulations to Qi, Jingoo, Sixing, Phuong, and Ahmad!</li>
 <li>🏆 Best Paper award at IEEE Cloud'22 for privacy-preserving Federated Learning.</li>
