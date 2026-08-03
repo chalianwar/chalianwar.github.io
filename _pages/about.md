@@ -43,7 +43,7 @@ I am an Assistant Professor in the [Computer Science and Engineering Department]
 
 My work has received five Best Paper awards, multiple awards from IBM, the [Samsung GRO award](https://semiconductor.samsung.com/sait/event/global-research-outreach/), and the [Pratt Fellowship award](https://cs.vt.edu/Graduate/Funding/fellowships.html "Pratt Fellowship award"), and I am a co-inventor on more than 15 US patents. Before joining UMN, I was a Research Staff Member on the [AI Platforms](https://research.ibm.com/artificial-intelligence "AI Platforms") team at [IBM Research Almaden](https://research.ibm.com/labs/almaden "IBM Research Almaden"). I received my Ph.D. in Computer Science from [Virginia Tech](https://cs.vt.edu/ "Virginia Tech"), advised by Dr. [Ali R. Butt](https://website.cs.vt.edu/people/faculty/ali-butt.html "Ali R. Butt"), and spent three summers at [IBM Research](https://research.ibm.com/ "IBM Research") during my doctorate. Earlier in my career I worked as a tools developer on several open-source projects, including [GNU GDB](https://sourceware.org/gdb/ "GNU GDB"), [Embedded Linux](https://www.yoctoproject.org/ "Embedded Linux"), [U-Boot](https://source.denx.de/u-boot/u-boot "U-Boot"), and [BusyBox](https://www.busybox.net/ "BusyBox").
 
-## Selected Publications
+## Selected Recent Publications
 <ul>
 <li><strong>ICLR'26</strong> &mdash; Retrieval-of-Thought: Efficient Reasoning via Reusing Thoughts.</li>
 <li><strong>MLSys'26</strong> &mdash; ProToken: Token-Level Attribution for Federated Large Language Models.</li>
