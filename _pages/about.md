@@ -1,6 +1,6 @@
 ---
 permalink: /
-excerpt: "About me"
+excerpt: "Assistant Professor of Computer Science & Engineering at the University of Minnesota, working on systems for machine learning, efficient LLM inference, federated learning, and serverless computing."
 author_profile: true
 redirect_from: 
   - /about/

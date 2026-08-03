@@ -11,10 +11,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Ali Anwar"
 title_separator          : "-"
 name                     : &name "Ali Anwar"
-description              : &description "Assistant Professor - CSE University of Minnesota"
+description              : &description "Ali Anwar is an Assistant Professor of Computer Science & Engineering at the University of Minnesota, working on systems for machine learning, efficient LLM inference, federated learning, and serverless computing."
 url                      : https://chalianwar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chalianwar/chalianwar.github.io"
