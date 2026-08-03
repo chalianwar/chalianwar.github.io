@@ -52,7 +52,7 @@ My work has received five Best Paper awards, multiple awards from IBM, the [Sams
 <li><strong>ICSE'25</strong> &mdash; TraceFL: Interpretability-Driven Debugging in Federated Learning.</li>
 <li><strong>VLDB'24</strong> &mdash; Storage Compressibility of Pre-Trained ML Models.</li>
 <li><strong>EuroSys'24</strong> &mdash; FLOAT: Federated Learning Optimizations with Automated Tuning.</li>
-<li><strong>FAST'21</strong> &mdash; CNSBench: A Cloud Native Storage Benchmark.</li>
+<li><strong>VLDB'23</strong> &mdash; InfiniStore: Elastic Serverless Cloud Storage.</li>
 </ul>
 <p><a href="/selected/">See all selected publications &rarr;</a></p>
 
