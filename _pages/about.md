@@ -47,7 +47,7 @@ My work has received five Best Paper awards, multiple awards from IBM, the [Sams
 <div class="news-scroll" tabindex="0" role="region" aria-label="Recent news">
 <ul>
 <li>Four papers accepted in 2026 — Sem-DPO (ACL'26 Findings), Retrieval-of-Thought (ICLR'26), ProToken (MLSys'26), and AHE: Adaptive Homomorphic Encryption (INFOCOM'26). Congratulations to Anas, Ammar, Azal, Waris, Jiaxiang, and the teams!</li>
-<li>Four more papers accepted in 2026 — Multipath Adaptive Video Streaming (ICNP'26), Accelerating Distributed Deep Learning with Multi-Queue RDMA (ICNP'26), Systematic Evaluation of Optimization Techniques for Long-Context LLMs (CLUSTER'26), and Learning to Sync at the Edge (SEC'26). Congratulations to Ammar, Feng, Jiaxiang, Ebasa, Xinyue, and the team!</li>
+<li>More 2026 papers accepted — Multipath Adaptive Video Streaming (ICNP'26), Accelerating Distributed Deep Learning with Multi-Queue RDMA (ICNP'26), Systematic Evaluation of Optimization Techniques for Long-Context LLMs (CLUSTER'26), and Learning to Sync at the Edge (SEC'26). Congratulations to Ammar, Feng, Jiaxiang, Ebasa, Xinyue, and the team!</li>
 <li>🏆 Excited to receive an NSF CSSI award as PI for ML4GW — a machine learning ecosystem for gravitational-wave data analysis (w/ Michael W. Coughlin (UMN), Erotokritos Katsavounidis (MIT), and Philip C. Harris (MIT)). Thanks to NSF for supporting our research!</li>
 <li>New preprint: Faster Synchronous On-Policy RL via Straggler-Aware Group Sizing.</li>
 <li>🏆 Excited to receive Cisco Research funding with Zirui Liu from UMN. Thanks to Cisco for supporting our research!</li>
