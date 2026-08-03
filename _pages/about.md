@@ -43,6 +43,19 @@ I am an Assistant Professor in the [Computer Science and Engineering Department]
 
 My work has received five Best Paper awards, multiple awards from IBM, the [Samsung GRO award](https://semiconductor.samsung.com/sait/event/global-research-outreach/), and the [Pratt Fellowship award](https://cs.vt.edu/Graduate/Funding/fellowships.html "Pratt Fellowship award"), and I am a co-inventor on more than 15 US patents. Before joining UMN, I was a Research Staff Member on the [AI Platforms](https://research.ibm.com/artificial-intelligence "AI Platforms") team at [IBM Research Almaden](https://research.ibm.com/labs/almaden "IBM Research Almaden"). I received my Ph.D. in Computer Science from [Virginia Tech](https://cs.vt.edu/ "Virginia Tech"), advised by Dr. [Ali R. Butt](https://website.cs.vt.edu/people/faculty/ali-butt.html "Ali R. Butt"), and spent three summers at [IBM Research](https://research.ibm.com/ "IBM Research") during my doctorate. Earlier in my career I worked as a tools developer on several open-source projects, including [GNU GDB](https://sourceware.org/gdb/ "GNU GDB"), [Embedded Linux](https://www.yoctoproject.org/ "Embedded Linux"), [U-Boot](https://source.denx.de/u-boot/u-boot "U-Boot"), and [BusyBox](https://www.busybox.net/ "BusyBox").
 
+## Selected Publications
+<ul>
+<li><strong>ICLR'26</strong> &mdash; Retrieval-of-Thought: Efficient Reasoning via Reusing Thoughts.</li>
+<li><strong>MLSys'26</strong> &mdash; ProToken: Token-Level Attribution for Federated Large Language Models.</li>
+<li><strong>NeurIPS'25</strong> <em>(Spotlight)</em> &mdash; Quantile-Guided Alignment for Risk-Calibrated Language Models.</li>
+<li><strong>ICLR'25</strong> <em>(Oral)</em> &mdash; MAP: Multi-Human-Value Alignment Palette.</li>
+<li><strong>ICSE'25</strong> &mdash; TraceFL: Interpretability-Driven Debugging in Federated Learning.</li>
+<li><strong>VLDB'24</strong> &mdash; Storage Compressibility of Pre-Trained ML Models.</li>
+<li><strong>EuroSys'24</strong> &mdash; FLOAT: Federated Learning Optimizations with Automated Tuning.</li>
+<li><strong>FAST'21</strong> &mdash; CNSBench: A Cloud Native Storage Benchmark.</li>
+</ul>
+<p><a href="/selected/">See all selected publications &rarr;</a></p>
+
 ## Recent News
 <div class="news-scroll" tabindex="0" role="region" aria-label="Recent news">
 <ul>
