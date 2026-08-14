@@ -50,7 +50,7 @@ My work has received five Best Paper awards, multiple awards from IBM, the [Sams
 <li><strong>NeurIPS'25</strong> <em>(Spotlight)</em> &mdash; Quantile-Guided Alignment for Risk-Calibrated Language Models.</li>
 <li><strong>ICLR'25</strong> <em>(Oral)</em> &mdash; MAP: Multi-Human-Value Alignment Palette.</li>
 <li><strong>ICSE'25</strong> &mdash; TraceFL: Interpretability-Driven Debugging in Federated Learning.</li>
-<li><strong>MLSys'26</strong> &mdash; FLStore: Efficient Federated Learning Storage for non-training workloads.</li>
+<li><strong>MLSys'25</strong> &mdash; FLStore: Efficient Federated Learning Storage for non-training workloads.</li>
 <li><strong>VLDB'24</strong> &mdash; Storage Compressibility of Pre-Trained ML Models.</li>
 <li><strong>EuroSys'24</strong> &mdash; FLOAT: Federated Learning Optimizations with Automated Tuning.</li>
 </ul>
