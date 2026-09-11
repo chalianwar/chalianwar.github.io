@@ -59,6 +59,7 @@ My work has received five Best Paper awards, multiple awards from IBM, the [Sams
 ## Recent News
 <div class="news-scroll" tabindex="0" role="region" aria-label="Recent news">
 <ul>
+<li>🎓 Congratulations to Dr. <a href="https://wang8740.github.io/">Xinran Wang</a> on completing her Ph.D.! Xinran has started her full-time position at Optum. We are proud of you and wish you all the best!</li>
 <li>Four papers accepted in 2026 — Sem-DPO (ACL'26 Findings), Retrieval-of-Thought (ICLR'26), ProToken (MLSys'26), and AHE: Adaptive Homomorphic Encryption (INFOCOM'26). Congratulations to Anas, Ammar, Azal, Waris, Jiaxiang, and the teams!</li>
 <li>More 2026 papers accepted — two papers at ICNP'26, Cluster'26, and SEC'26. Congratulations to Ammar, Feng, Jiaxiang, Ebasa, Xinyue, and the team!</li>
 <li>🏆 Excited to receive an NSF CSSI award as PI for ML4GW — a machine learning ecosystem for gravitational-wave data analysis (w/ Michael W. Coughlin (UMN), Erotokritos Katsavounidis (MIT), and Philip C. Harris (MIT)). Thanks to NSF for supporting our research!</li>
