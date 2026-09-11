@@ -33,223 +33,240 @@ alt="web counter"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
 
+<style>
+  /* ---------- Lab page ---------- */
+  .lab {
+    --lab-border: #e2e2e6;
+    --lab-card-bg: #ffffff;
+    --lab-muted: #5f5f66;
+    --lab-accent: #00008b;
+    --lab-pill-bg: rgba(0, 0, 139, 0.06);
+    --lab-pill-border: rgba(0, 0, 139, 0.28);
+    --lab-ring: #dcdce0;
+  }
+  html[data-theme="dark"] .lab {
+    --lab-border: var(--dm-border);
+    --lab-card-bg: var(--dm-bg-elevated);
+    --lab-muted: var(--dm-text-muted);
+    --lab-accent: var(--dm-link);
+    --lab-pill-bg: rgba(127, 176, 255, 0.12);
+    --lab-pill-border: rgba(127, 176, 255, 0.4);
+    --lab-ring: #45454c;
+  }
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  .lab { margin-top: 1.5em; }
+  .lab-section { margin: 0 0 2.5em; }
+  .lab-heading {
+    margin: 0 0 1em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid var(--lab-border);
+    font-size: 1.25em;
+  }
 
+  /* One grid for every section: left-aligned, responsive, equal-height cards */
+  .people-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 16px;
+  }
+  .person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 14px 18px;
+    text-align: center;
+    background: var(--lab-card-bg);
+    border: 1px solid var(--lab-border);
+    border-radius: 12px;
+  }
+  .person-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;               /* crop non-square photos instead of stretching */
+    border-radius: 50%;
+    border: 3px solid var(--lab-ring);
+    margin-bottom: 12px;
+  }
+  .person p,
+  .pi p { margin: 0; }
+  .person-name { font-weight: 600; line-height: 1.3; }
+  .person-name a,
+  .pi-name a { text-decoration: none; }
+  .person-name a:hover,
+  .pi-name a:hover { text-decoration: underline; }
+  .person-meta { margin-top: 3px; font-size: 0.85em; color: var(--lab-muted); }
+  .person-note { margin-top: 8px; font-size: 0.8em; line-height: 1.35; color: var(--lab-muted); }
 
-  <style>
+  /* Alumni: accent bar + placement pill */
+  .person--alumni { border-top: 4px solid var(--lab-accent); }
+  .person-placement {
+    margin-top: 8px;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 0.8em;
+    color: var(--lab-accent);
+    background: var(--lab-pill-bg);
+    border: 1px solid var(--lab-pill-border);
+  }
 
-	  
-            body {
-                font-family: Arial, sans-serif;
-            }
-	  
-	h1 {
-                font-size: 30px; /* Adjust the size as needed */
-                font-weight: bold;
-        }
-	  
-    .member-card {
-      border: 1px solid lightgray;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-    .member-card img {
-      width: 200px;
-      height: 200px;
-      border: 5px solid #555;
-      border-radius: 50%;
-    }
-    .member-card a {
-      color: #007bff;
-      text-decoration: none;
-    }
-    .member-card a:hover {
-      color: #0056b3;
-    }
-    .title {
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin: 20px 0;
-    }
-    .subtitle {
-      font-size: 1.2rem;
-      font-weight: bold;
-      margin: 20px 0;
-    }
-    /* PhD alumni: accent border + placement pill so graduates stand out */
-    .alumni-card {
-      border-top: 5px solid #007bff;
-    }
-    .alumni-degree {
-      margin-bottom: 0.4em;
-      font-size: 0.95em;
-      opacity: 0.8;
-    }
-    .alumni-placement {
-      display: inline-block;
-      padding: 0.25em 0.9em;
-      border-radius: 999px;
-      background: rgba(0, 123, 255, 0.1);
-      border: 1px solid rgba(0, 123, 255, 0.35);
-      color: #0056b3;
-    }
-    html[data-theme="dark"] .alumni-card {
-      border-top-color: var(--dm-link);
-    }
-    html[data-theme="dark"] .alumni-placement {
-      background: rgba(127, 176, 255, 0.12);
-      border-color: rgba(127, 176, 255, 0.4);
-      color: var(--dm-link);
-    }
-  </style>
+  /* Principal Investigator: horizontal card */
+  .pi {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 20px 24px;
+    background: var(--lab-card-bg);
+    border: 1px solid var(--lab-border);
+    border-radius: 12px;
+  }
+  .pi .person-photo { width: 130px; height: 130px; margin: 0; flex-shrink: 0; }
+  .pi-name { font-size: 1.2em; font-weight: 600; }
+  .pi-title { margin-top: 4px; line-height: 1.45; color: var(--lab-muted); }
 
-  <div class="container mt-5">
+  @media (max-width: 480px) {
+    .people-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .person { padding: 16px 10px; }
+    .person-photo { width: 96px; height: 96px; }
+    .pi { flex-direction: column; text-align: center; }
+  }
+</style>
 
-    <h2 class="subtitle text-center">Principal Investigator</h2>
-    <div class="member-card">
-      <img src="../images/image4.png" alt="" />
-      <p><a href="https://chalianwar.github.io/">Ali Anwar</a></p>
-      <p>Assistant Professor UMN@CSE</p>
-    </div>
-
-    <!-- PhD Students -->
-    <h2 class="subtitle text-center">PhD Students</h2>
-    <div class="row">
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/image2.png" alt="" />
-        <p><a href="https://qi-le1.github.io/">Qi Le (Fall'22)</a></p>
-	<p> Amazon MLSys Fellow </p>
-      </div>
-
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/image.png" alt="" />
-        <p><a href="https://ahme0599.github.io/">Ammar Ahmed (Fall'22)</a></p>
-      </div>
-
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/image3.png" alt="" />
-        <p><a href="https://samuelfountain.org/">Sam Fountain (Spring'23)</a></p>
-	<p>Teaching Specialist CS&E</p>
-      </div>
-
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/image6.png" alt="" />
-        <p><a href="">Connor Howe (Fall'23)</a></p>
-	<p>CS-IDEA and GAANN Fellow</p> 
-      </div>
-
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/image7.png" alt="" />
-        <p><a href="https://tangjacson.github.io/">Jiaxiang Tang (Fall'23)</a></p>
-	<p>co-advise with Dr. Zhi-Li Zhang</p>
-      </div>
-
-      
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/azal.jpg" alt="" />
-        <p><a href="https://azalahmadkhan.github.io/">Azal Khan (Fall'24)</a></p>
-	<p>GAGE and Amazon MLSys Fellow</p>      
-      </div>
-
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/bio.png" alt="" />
-        <p><a href="">Hao Li (Summer'26)</a></p>
-      </div>
-	    
-      <!-- More PhD students here...
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/image7.png" alt="" />
-        <p><a href="">Ali Hassan (Spring'24)</a></p>
-      </div>
-      -->
-    </div>
-
-    <!-- PhD Alumni -->
-    <h2 class="subtitle text-center">PhD Alumni</h2>
-    <div class="row justify-content-center">
-
-      <div class="col-sm-6 col-md-4 member-card alumni-card">
-        <img src="../images/image5.png" alt="" />
-        <p><a href="https://wang8740.github.io/">Xinran Wang</a></p>
-        <p class="alumni-degree">Ph.D. 2026</p>
-        <p class="alumni-placement">Now at <strong>Optum</strong></p>
-        <p>3M and Doctoral Dissertation Fellow</p>
-      </div>
-
-      <!-- More PhD alumni here (copy the card above) -->
-    </div>
-
-    <!-- Masters Students -->
-    <h2 class="subtitle text-center">Masters Students</h2>
-    <div class="row">
-	    
-
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/bio.png" alt="" />
-        <p><a href="">Anas Mohamed (Fall'24)</a></p>
-        <p></p>
-      </div>
-
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/bio.png" alt="" />
-	<p><a href="https://www.madarame.dev//">Aurelius Nguyen</a></p>
-	<p>Undergraduate Research Opportunities Program (UROP)</p> 
-      </div> 
-
-    
-      <!-- More Masters students here... -->
-
-    </div>	    
-    <!-- Undergraduate Students -->
-    <h2 class="subtitle text-center">Undergraduate Students</h2>
-    <div class="row">
-
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/bio.png" alt="" />
-        <p>Raghav Mundada</p>
-	<p>Undergraduate Research Opportunities Program (UROP)</p>
-      </div>
-
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/bio.png" alt="" />
-        <p>Shuyuan Yang</p>
-      </div>
-		
-<!-- M
--->
-      <!-- More Undergraduate students here... -->
-    </div>
-
-
-	    <!-- MS Alumni -->
-    <h2 class="subtitle text-center">MS Alumni</h2>
-    <div class="row">
-		
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/bio.png" alt="" />
-        <p><a href="">Suchithra M (Western Digital)</a></p>
-        <p></p>
-	   </div>
-		  
-	      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/bio.png" alt="" />
-        <p><a href="">Chinmayee Dharmastalam Sreedhar (Amazon)</a></p>
-        <p></p>
-      </div>
-	    
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/bio.png" alt="" />
-        <p><a href="">Pravallika Kambhampati (Arrcus Networks)</a></p>
-        <p></p>
-      </div>
-      <!-- More Alumni students here... -->
-    </div>
-	  
+<!--
+  Card template (copy into the right section):
+  <div class="person">
+    <img class="person-photo" src="../images/PHOTO.png" alt="" />
+    <p class="person-name"><a href="https://WEBSITE/">Name</a></p>   (no website? use plain text: <p class="person-name">Name</p>)
+    <p class="person-meta">Joined Fall'26</p>
+    <p class="person-note">Fellowship or note (optional)</p>
   </div>
+  Alumni: add class="person person--alumni" and <p class="person-placement">Now at <strong>Company</strong></p>
+-->
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<div class="lab">
 
+  <section class="lab-section">
+    <h2 class="lab-heading">Principal Investigator</h2>
+    <div class="pi">
+      <img class="person-photo" src="../images/image4.png" alt="" />
+      <div>
+        <p class="pi-name"><a href="https://chalianwar.github.io/">Ali Anwar</a></p>
+        <p class="pi-title">Assistant Professor<br />Department of Computer Science &amp; Engineering<br />University of Minnesota</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-section">
+    <h2 class="lab-heading">PhD Students</h2>
+    <div class="people-grid">
+      <div class="person">
+        <img class="person-photo" src="../images/image2.png" alt="" />
+        <p class="person-name"><a href="https://qi-le1.github.io/">Qi Le</a></p>
+        <p class="person-meta">Joined Fall'22</p>
+        <p class="person-note">Amazon MLSys Fellow</p>
+      </div>
+      <div class="person">
+        <img class="person-photo" src="../images/image.png" alt="" />
+        <p class="person-name"><a href="https://ahme0599.github.io/">Ammar Ahmed</a></p>
+        <p class="person-meta">Joined Fall'22</p>
+      </div>
+      <div class="person">
+        <img class="person-photo" src="../images/image3.png" alt="" />
+        <p class="person-name"><a href="https://samuelfountain.org/">Sam Fountain</a></p>
+        <p class="person-meta">Joined Spring'23</p>
+        <p class="person-note">Teaching Specialist, CS&amp;E</p>
+      </div>
+      <div class="person">
+        <img class="person-photo" src="../images/image6.png" alt="" />
+        <p class="person-name">Connor Howe</p>
+        <p class="person-meta">Joined Fall'23</p>
+        <p class="person-note">CS-IDEA and GAANN Fellow</p>
+      </div>
+      <div class="person">
+        <img class="person-photo" src="../images/image7.png" alt="" />
+        <p class="person-name"><a href="https://tangjacson.github.io/">Jiaxiang Tang</a></p>
+        <p class="person-meta">Joined Fall'23</p>
+        <p class="person-note">Co-advised with Dr. Zhi-Li Zhang</p>
+      </div>
+      <div class="person">
+        <img class="person-photo" src="../images/azal.jpg" alt="" />
+        <p class="person-name"><a href="https://azalahmadkhan.github.io/">Azal Khan</a></p>
+        <p class="person-meta">Joined Fall'24</p>
+        <p class="person-note">GAGE and Amazon MLSys Fellow</p>
+      </div>
+      <div class="person">
+        <img class="person-photo" src="../images/bio.png" alt="" />
+        <p class="person-name">Hao Li</p>
+        <p class="person-meta">Joined Summer'26</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-section">
+    <h2 class="lab-heading">PhD Alumni</h2>
+    <div class="people-grid">
+      <div class="person person--alumni">
+        <img class="person-photo" src="../images/image5.png" alt="" />
+        <p class="person-name"><a href="https://wang8740.github.io/">Xinran Wang</a></p>
+        <p class="person-meta">Ph.D. 2026</p>
+        <p class="person-placement">Now at <strong>Optum</strong></p>
+        <p class="person-note">3M and Doctoral Dissertation Fellow</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-section">
+    <h2 class="lab-heading">Masters Students</h2>
+    <div class="people-grid">
+      <div class="person">
+        <img class="person-photo" src="../images/bio.png" alt="" />
+        <p class="person-name">Anas Mohamed</p>
+        <p class="person-meta">Joined Fall'24</p>
+      </div>
+      <div class="person">
+        <img class="person-photo" src="../images/bio.png" alt="" />
+        <p class="person-name"><a href="https://www.madarame.dev/">Aurelius Nguyen</a></p>
+        <p class="person-note">Undergraduate Research Opportunities Program (UROP)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-section">
+    <h2 class="lab-heading">Undergraduate Students</h2>
+    <div class="people-grid">
+      <div class="person">
+        <img class="person-photo" src="../images/bio.png" alt="" />
+        <p class="person-name">Raghav Mundada</p>
+        <p class="person-note">Undergraduate Research Opportunities Program (UROP)</p>
+      </div>
+      <div class="person">
+        <img class="person-photo" src="../images/bio.png" alt="" />
+        <p class="person-name">Shuyuan Yang</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-section">
+    <h2 class="lab-heading">MS Alumni</h2>
+    <div class="people-grid">
+      <div class="person person--alumni">
+        <img class="person-photo" src="../images/bio.png" alt="" />
+        <p class="person-name">Suchithra M</p>
+        <p class="person-meta">M.S.</p>
+        <p class="person-placement">Now at <strong>Western Digital</strong></p>
+      </div>
+      <div class="person person--alumni">
+        <img class="person-photo" src="../images/bio.png" alt="" />
+        <p class="person-name">Chinmayee Dharmastalam Sreedhar</p>
+        <p class="person-meta">M.S.</p>
+        <p class="person-placement">Now at <strong>Amazon</strong></p>
+      </div>
+      <div class="person person--alumni">
+        <img class="person-photo" src="../images/bio.png" alt="" />
+        <p class="person-name">Pravallika Kambhampati</p>
+        <p class="person-meta">M.S.</p>
+        <p class="person-placement">Now at <strong>Arrcus Networks</strong></p>
+      </div>
+    </div>
+  </section>
+
+</div>
