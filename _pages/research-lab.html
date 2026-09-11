@@ -87,13 +87,10 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
     border: 3px solid var(--lab-ring);
     margin-bottom: 12px;
   }
-  .person p,
-  .pi p { margin: 0; }
+  .person p { margin: 0; }
   .person-name { font-weight: 600; line-height: 1.3; }
-  .person-name a,
-  .pi-name a { text-decoration: none; }
-  .person-name a:hover,
-  .pi-name a:hover { text-decoration: underline; }
+  .person-name a { text-decoration: none; }
+  .person-name a:hover { text-decoration: underline; }
   .person-meta { margin-top: 3px; font-size: 0.85em; color: var(--lab-muted); }
   .person-note { margin-top: 8px; font-size: 0.8em; line-height: 1.35; color: var(--lab-muted); }
 
@@ -109,25 +106,10 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
     border: 1px solid var(--lab-pill-border);
   }
 
-  /* Principal Investigator: horizontal card */
-  .pi {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    padding: 20px 24px;
-    background: var(--lab-card-bg);
-    border: 1px solid var(--lab-border);
-    border-radius: 12px;
-  }
-  .pi .person-photo { width: 130px; height: 130px; margin: 0; flex-shrink: 0; }
-  .pi-name { font-size: 1.2em; font-weight: 600; }
-  .pi-title { margin-top: 4px; line-height: 1.45; color: var(--lab-muted); }
-
   @media (max-width: 480px) {
     .people-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
     .person { padding: 16px 10px; }
     .person-photo { width: 96px; height: 96px; }
-    .pi { flex-direction: column; text-align: center; }
   }
 </style>
 
@@ -146,11 +128,12 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
   <section class="lab-section">
     <h2 class="lab-heading">Principal Investigator</h2>
-    <div class="pi">
-      <img class="person-photo" src="../images/image4.png" alt="" />
-      <div>
-        <p class="pi-name"><a href="https://chalianwar.github.io/">Ali Anwar</a></p>
-        <p class="pi-title">Assistant Professor<br />Department of Computer Science &amp; Engineering<br />University of Minnesota</p>
+    <div class="people-grid">
+      <div class="person">
+        <img class="person-photo" src="../images/image4.png" alt="" />
+        <p class="person-name"><a href="https://chalianwar.github.io/">Ali Anwar</a></p>
+        <p class="person-meta">Assistant Professor</p>
+        <p class="person-note">Computer Science &amp; Engineering, University of Minnesota</p>
       </div>
     </div>
   </section>
