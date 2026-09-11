@@ -79,6 +79,31 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
       font-weight: bold;
       margin: 20px 0;
     }
+    /* PhD alumni: accent border + placement pill so graduates stand out */
+    .alumni-card {
+      border-top: 5px solid #007bff;
+    }
+    .alumni-degree {
+      margin-bottom: 0.4em;
+      font-size: 0.95em;
+      opacity: 0.8;
+    }
+    .alumni-placement {
+      display: inline-block;
+      padding: 0.25em 0.9em;
+      border-radius: 999px;
+      background: rgba(0, 123, 255, 0.1);
+      border: 1px solid rgba(0, 123, 255, 0.35);
+      color: #0056b3;
+    }
+    html[data-theme="dark"] .alumni-card {
+      border-top-color: var(--dm-link);
+    }
+    html[data-theme="dark"] .alumni-placement {
+      background: rgba(127, 176, 255, 0.12);
+      border-color: rgba(127, 176, 255, 0.4);
+      color: var(--dm-link);
+    }
   </style>
 
   <div class="container mt-5">
@@ -109,12 +134,6 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
         <p><a href="https://samuelfountain.org/">Sam Fountain (Spring'23)</a></p>
 	<p>Teaching Specialist CS&E</p>
       </div>
-	    
-      <div class="col-sm-6 col-md-4 member-card">
-        <img src="../images/image5.png" alt="" />
-        <p><a href="https://wang8740.github.io/">Xinran Wang (Fall'23)</a></p>
-        <p>3M and Doctoral Dissertation Fellow</p>
-      </div>
 
       <div class="col-sm-6 col-md-4 member-card">
         <img src="../images/image6.png" alt="" />
@@ -140,12 +159,27 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
         <p><a href="">Hao Li (Summer'26)</a></p>
       </div>
 	    
-      <!-- More PhD students here... 
+      <!-- More PhD students here...
       <div class="col-sm-6 col-md-4 member-card">
         <img src="../images/image7.png" alt="" />
         <p><a href="">Ali Hassan (Spring'24)</a></p>
       </div>
       -->
+    </div>
+
+    <!-- PhD Alumni -->
+    <h2 class="subtitle text-center">PhD Alumni</h2>
+    <div class="row justify-content-center">
+
+      <div class="col-sm-6 col-md-4 member-card alumni-card">
+        <img src="../images/image5.png" alt="" />
+        <p><a href="https://wang8740.github.io/">Xinran Wang</a></p>
+        <p class="alumni-degree">Ph.D. 2026</p>
+        <p class="alumni-placement">Now at <strong>Optum</strong></p>
+        <p>3M and Doctoral Dissertation Fellow</p>
+      </div>
+
+      <!-- More PhD alumni here (copy the card above) -->
     </div>
 
     <!-- Masters Students -->
