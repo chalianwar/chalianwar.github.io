@@ -59,7 +59,6 @@ My work has received five Best Paper awards, multiple awards from IBM, the [Sams
 ## Recent News
 <div class="news-scroll" tabindex="0" role="region" aria-label="Recent news">
 <ul>
-<li>🏆 Excited to receive an Amazon Research Award as sole PI! Thanks to Amazon for supporting our research!</li>
 <li>Received an NSF ACCESS Discover allocation (2,000 GPU hours) for our project on safe and faithful RL post-training for language models. Thanks to NSF ACCESS!</li>
 <li>🎓 Huge congratulations to Dr. <a href="https://wang8740.github.io/">Xinran Wang</a> on completing her Ph.D.! It has been a privilege to work with her and watch her grow into an outstanding researcher. Xinran has now started her full-time role at Optum. We are so proud of her, will miss her in the lab, and can't wait to see all she accomplishes next!</li>
 <li>Four papers accepted in 2026 — Sem-DPO (ACL'26 Findings), Retrieval-of-Thought (ICLR'26), ProToken (MLSys'26), and AHE: Adaptive Homomorphic Encryption (INFOCOM'26). Congratulations to Anas, Ammar, Azal, Waris, Jiaxiang, and the teams!</li>
@@ -124,7 +123,6 @@ We gratefully acknowledge the support of our sponsors:
   <img src="images/nsf.png" alt="Sponsor 1" width="150"/>
   <img src="images/samsung.png" alt="Sponsor 2" width="150"/>
   <img src="images/cisco.png" alt="Sponsor 3" width="150"/>
-  <img src="images/amazon.png" alt="Sponsor 4" width="150"/>
 </p>
 
   
