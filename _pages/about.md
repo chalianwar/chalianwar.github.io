@@ -62,7 +62,7 @@ My work has received five Best Paper awards, multiple awards from IBM, the [Sams
 <li>Received an NSF ACCESS Discover allocation (2,000 GPU hours) for our project on safe and faithful RL post-training for language models. Thanks to NSF ACCESS!</li>
 <li>🎓 Huge congratulations to Dr. <a href="https://wang8740.github.io/">Xinran Wang</a> on completing her Ph.D.! It has been a privilege to work with her and watch her grow into an outstanding researcher. Xinran has now started her full-time role at Optum. We are so proud of her, will miss her in the lab, and can't wait to see all she accomplishes next!</li>
 <li>Four papers accepted in 2026 — Sem-DPO (ACL'26 Findings), Retrieval-of-Thought (ICLR'26), ProToken (MLSys'26), and AHE: Adaptive Homomorphic Encryption (INFOCOM'26). Congratulations to Anas, Ammar, Azal, Waris, Jiaxiang, and the teams!</li>
-<li>More 2026 papers accepted — two papers at ICNP'26, Cluster'26, and SEC'26. Congratulations to Ammar, Feng, Jiaxiang, Ebasa, Xinyue, and the team!</li>
+<li>More 2026 papers accepted — two papers at ICNP'26, Cluster'26, BigData'26, and SEC'26. Congratulations to Ammar, Feng, Jiaxiang, Anas, Kaizan, Azal, Ebasa, Xinyue, and the team!</li>
 <li>🏆 Excited to receive an NSF CSSI award as PI for ML4GW — a machine learning ecosystem for gravitational-wave data analysis (w/ Michael W. Coughlin (UMN), Erotokritos Katsavounidis (MIT), and Philip C. Harris (MIT)). Thanks to NSF for supporting our research!</li>
 <li>New preprint: Faster Synchronous On-Policy RL via Straggler-Aware Group Sizing.</li>
 <li>🏆 Excited to receive Cisco Research funding with Zirui Liu from UMN. Thanks to Cisco for supporting our research!</li>
