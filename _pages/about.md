@@ -59,6 +59,8 @@ My work has received five Best Paper awards, multiple awards from IBM, the [Sams
 ## Recent News
 <div class="news-scroll" tabindex="0" role="region" aria-label="Recent news">
 <ul>
+<li>🌟 Congratulations to Dr. <a href="https://wang8740.github.io/">Xinran Wang</a> on being selected for Rising Stars in EECS 2026, a highly competitive workshop for women in electrical engineering and computer science!</li>
+<li>🏆 Received a UMN Data Science Initiative (DSI) seed grant, funding a graduate research assistant position for one year. Thanks to UMN DSI for supporting our research!</li>
 <li>Received an NSF ACCESS Discover allocation (2,000 GPU hours) for our project on safe and faithful RL post-training for language models. Thanks to NSF ACCESS!</li>
 <li>🎓 Huge congratulations to Dr. <a href="https://wang8740.github.io/">Xinran Wang</a> on completing her Ph.D.! It has been a privilege to work with her and watch her grow into an outstanding researcher. Xinran has now started her full-time role at Optum. We are so proud of her, will miss her in the lab, and can't wait to see all she accomplishes next!</li>
 <li>Four papers accepted in 2026 — Sem-DPO (ACL'26 Findings), Retrieval-of-Thought (ICLR'26), ProToken (MLSys'26), and AHE: Adaptive Homomorphic Encryption (INFOCOM'26). Congratulations to Anas, Ammar, Azal, Waris, Jiaxiang, and the teams!</li>
